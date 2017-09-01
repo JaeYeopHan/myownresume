@@ -1,13 +1,3 @@
-import ProfileSectionContainer from "./ProfileSectionContainer";
-import WorkSectionContainer from "./WorkSectionContainer";
-import ProjectSectionContainer from "./ProjectSectionContainer";
-import TechniqueSectionContainer from "./TechniqueSectionContainer";
-import StudySectionContainer from "./StudySectionContainer";
+import MainContainer from "./MainContainer";
 
-export {
-	ProfileSectionContainer,
-	WorkSectionContainer,
-	ProjectSectionContainer,
-	TechniqueSectionContainer,
-	StudySectionContainer,
-};
+export default MainContainer;
