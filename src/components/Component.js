@@ -27,7 +27,7 @@ class Component {
 	 * @Getter
 	 * @return {HTMLElement} HTMLElement to pending template
 	 */
-	get subRoot() {
+	subRoot() {
 		if (this.subRoot) {
 			return this.subRoot;
 		}

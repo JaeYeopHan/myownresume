@@ -10,6 +10,7 @@ const DOM = {
 		}
 		return wrapper;
 	},
+	elm: selector => document.querySelector(selector),
 };
 
 export default DOM;

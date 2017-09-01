@@ -6,11 +6,17 @@ import {
 	Study,
 } from "../components";
 
+import Dom from "../utils/DOM";
 
 class MainContainer {
-	constructor(data) {
-		console.log(data);
-		this.Profile = Profile;
+	constructor({
+		profile,
+		work,
+		project,
+		technique,
+		study,
+	}) {
+		this.profile = new Profile(Dom.elm("#root"), profile);
 		this.Work = Work;
 		this.Project = Project;
 		this.Technique = Technique;

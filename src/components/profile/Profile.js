@@ -1,10 +1,14 @@
+import Component from "../Component";
 import ProfileTemplate from "./ProfileTemplate.hbs";
 import "./ProfileStyle.css";
 
-class Profile {
-	constructor(data) {
+class Profile extends Component {
+	constructor(root, data) {
+		super(root);
 		this.data = data;
 		this.template = ProfileTemplate;
+
+		super.render(ProfileTemplate({}));
 	}
 }
 
