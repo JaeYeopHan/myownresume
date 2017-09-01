@@ -1,0 +1,45 @@
+{
+  "name": "resume_prj",
+  "version": "1.0.0",
+  "description": "This project generate customize resume based on entered JSON data",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require babel-register $(find ./ -name '*./test/**/*.spec.js') --recursive",
+    "start": "webpack-dev-server --open",
+    "dev": "webpack-dev-server --env.dev",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JaeYeopHan/resume_prj"
+  },
+  "keywords": [
+    "resume"
+  ],
+  "author": "Jbee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JaeYeopHan/resume_prj/issues"
+  },
+  "homepage": "https://github.com/JaeYeopHan/resume_prj/blob/master/README.md",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-register": "^6.24.1",
+    "chai": "^3.5.0",
+    "css-loader": "^0.28.1",
+    "eslint": "^4.2.0",
+    "eslint-config-naver": "^1.0.0",
+    "eslint-loader": "^1.9.0",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "html-webpack-plugin": "^2.29.0",
+    "loglevel": "^1.4.1",
+    "mocha": "^3.2.0",
+    "style-loader": "^0.17.0",
+    "webpack": "^3.2.0",
+    "webpack-dev-server": "^2.5.1",
+    "webpack-merge": "^4.1.0"
+  }
+}
