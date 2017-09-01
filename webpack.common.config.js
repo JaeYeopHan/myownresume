@@ -24,7 +24,13 @@ module.exports = {
                 test: /(\.js)$/,
                 exclude: /(node_modules)|(test)/,
                 loader: "babel-loader"
-		    },
+            },
+            {
+                test: /\.hbs$/,
+                use: {
+                    loader: 'handlebars-loader'
+                }
+            },
             {
                 test: /\.css$/,
                 use: ExtractTextPlugin.extract({
