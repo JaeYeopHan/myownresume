@@ -7,7 +7,7 @@ import {
 } from "../../data/data.json";
 import MainContainer from "../container";
 
-import "../assets/css/style.css";
+import "../assets/css/index.css";
 
 export default class App {
 	constructor() {
