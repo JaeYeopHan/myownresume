@@ -1,0 +1,47 @@
+{
+    "profile": {
+        "info": {
+            "name": "Hong Gil Dong",
+            "job": "JavaScript Developer",
+            "email": "dev.gildong@gmail.com",
+            "profile_img": "./image/avata.jpg",
+            "one_line_intro": "I'm javascript developer who loves VanillaJS"
+        },
+        "link": {
+            "facebook": "https://www.facebook.com/devjbee",
+            "linkedin": "https://www.slideshare.net/JaeYeopHan",
+            "blog": "https://jaeyeophan.github.io/"
+        }
+    },
+    "work_experience": [
+        {
+            "name": "LINE Coporattion",
+            "position": "Web Server Developer",
+            "period": "17.01 ~ 17.02",
+            "description": "Develop redis operation chatbot based on LINE messenger"
+        }
+    ],
+    "project": [
+        {
+            "title": "navigation component",
+            "github_link": "https://github.com/JaeYeopHan/simple-navigation-component",
+            "period": "17.03 ~ 17.05",
+            "tech": "VanillaJS, handlebars, webpack",
+            "description": "Component project to navigation which published to npm",
+            "screenshot": ""
+        }
+    ],
+    "technique": [
+        {
+            "experienced_language": ["JavaScript", "Java"],
+            "experienced_framework": ["React", "Angular"]
+        }
+    ],
+    "study": [
+        {
+            "name": "NHN NEXT",
+            "period": "16.03 ~ 17.09",
+            "status": "pending"
+        }
+    ]
+}
