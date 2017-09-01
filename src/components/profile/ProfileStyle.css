@@ -1,0 +1,55 @@
+.profile_image_style {
+  border-radius: 50%;
+  border: 6px solid  #E9EBEE;
+  background-image: url("../../../data/image/profile/avata.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.profile_info {
+  color: gray;
+  font-weight: lighter;
+  margin-bottom: 4px;
+}
+
+.profile_link {
+  width: calc(100% / 3);
+  float: left;
+  text-align: center;
+}
+
+.profile_link .fa {
+  border: 1px solid gray;
+  border-radius: 50%;
+  font-size: 36px;
+  color: gray;
+}
+
+.profile_link .fa-facebook {
+  padding: 8px 16px
+}
+
+.profile_link .fa-linkedin {
+  padding: 8px 12px
+}
+
+.profile_link .fa-github {
+  padding: 0px 2px;
+  font-size: 56px;
+  border: none;
+}
+
+.profile_bar {
+  display: block;
+  width: 80px;
+  height: 4px;
+  background-color: gray;
+  color: gray;
+  margin: 12px auto;
+}
+
+.profile_one_line_intro_style {
+  text-align: center;
+  color: gray;
+  font-weight: lighter;
+}
