@@ -1,0 +1,46 @@
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 561px) {
+  .work_container {
+    margin: 60px auto;
+    width: calc(100% - 60px);
+  }
+
+  .work_sub_container {
+    margin: auto;
+    width: calc(100% - 20px);
+    height: 100%;
+  }
+
+  .work_info {
+    height: 100%;
+    margin-bottom: 30px;
+  }
+
+  .work_info_img {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 6px 24px 6px 0px;
+    border-radius: 24px;
+    background-image: url("../../../data/image/work/line_logo.png");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .work_info_item {
+    width: 100%;
+    margin-bottom: 4px;
+  }
+
+  .work_info_name {
+    font-size: 20px;
+  }
+
+  .work_info_period {
+    font-size: 16px;
+  }
+
+  .work_info_description {
+    font-size: 16px;
+  }
+}
