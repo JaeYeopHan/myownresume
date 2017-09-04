@@ -17,7 +17,7 @@ class MainContainer {
 		study,
 	}) {
 		this.profile = new Profile(Dom.elm("#root"), profile);
-		this.Work = Work;
+		this.Work = new Work(this.profile.subRoot);
 		this.Project = Project;
 		this.Technique = Technique;
 		this.Study = Study;

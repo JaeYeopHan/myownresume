@@ -1,10 +1,12 @@
+import Component from "../Component";
 import WorkTemplate from "./WorkTemplate.hbs";
 import "./WorkStyle.css";
 
-class Work {
-	constructor(data) {
+class Work extends Component {
+	constructor(root, data) {
+		super(root);
 		this.data = data;
-		this.template = WorkTemplate;
+		super.render(WorkTemplate({}));
 	}
 }
 

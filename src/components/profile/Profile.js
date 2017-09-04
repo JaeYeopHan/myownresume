@@ -8,8 +8,6 @@ class Profile extends Component {
 	constructor(root, data) {
 		super(root);
 		this.data = data;
-		this.template = ProfileTemplate;
-
 		super.render(ProfileTemplate({}));
 	}
 }
