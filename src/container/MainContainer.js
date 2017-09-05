@@ -2,7 +2,6 @@ import {
 	Profile,
 	Work,
 	Project,
-	Technique,
 	Study,
 } from "../components";
 
@@ -19,7 +18,6 @@ class MainContainer {
 		this._profile = new Profile(Dom.elm("#root"), profile);
 		this._work = new Work(this._profile.subRoot, work);
 		this._project = new Project(this._work.subRoot, project);
-		this._technique = Technique;
 		this._study = Study;
 	}
 }

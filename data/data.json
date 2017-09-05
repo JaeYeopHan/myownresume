@@ -33,16 +33,6 @@
             "description": "Component project to navigation which published to npm"
         }
     ],
-    "technique": [
-        {
-            "language": [
-				"JavaScript", "Java"
-			],
-            "framework": [
-				"React", "Angular"
-			]
-        }
-    ],
     "education": [
         {
             "name": "NHN NEXT",
