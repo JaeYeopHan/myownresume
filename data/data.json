@@ -37,11 +37,12 @@
             "framework": ["React", "Angular"]
         }
     ],
-    "study": [
+    "education": [
         {
             "name": "NHN NEXT",
             "period": "16.03 ~ 17.09",
-            "status": "pending"
+			"status": "pending",
+			"major": ""
         }
     ]
 }
