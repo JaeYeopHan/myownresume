@@ -1,0 +1,72 @@
+.project_card {
+  width: 100%;
+  height: 100%;
+}
+
+.project_card_title {
+  margin-bottom: 10px;
+  font-weight: bolder;
+  color: #3D3D3D;
+}
+
+.project_card_sub_title {
+  font-weight: lighter;
+  color: #fff;
+}
+
+.project_card_sub_team {
+  background-color: orange;
+}
+
+.project_card_sub_personal {
+  background-color: #7085D1;
+}
+
+.project_card_label {
+  display: inline-block;
+  margin-bottom: 6px;
+  margin-right: 3px;
+  padding: 3px 6px;
+  background-color: #E9EBEE;
+  font-weight: bolder;
+  color: #3D3D3D;
+}
+
+.project_card_period {
+  font-weight: light;
+  color: #3D3D3D;
+}
+
+.project_card_techs {
+  height: 100%;
+}
+
+.tech_tag {
+  margin-right: 2px;
+  padding: 3px;
+  border-radius: 1px;
+  background-color: #FFF8E7;
+  font-size: 15px;
+  font-weight: lighter;
+  letter-spacing: 90%;
+}
+
+.project_card_description {
+  font-weight: light;
+  color: #3D3D3D;
+}
+
+.project_links {
+  margin: 12px 0px 48px 0px;
+  text-align: center;
+}
+
+.project_links .fa {
+  padding-right: 4px;
+}
+
+.project_link {
+  border-radius: 8px;
+  border: 1px solid #3D3D3D;
+  color: #3D3D3D;
+}

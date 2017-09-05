@@ -16,11 +16,11 @@ class MainContainer {
 		technique,
 		study,
 	}) {
-		this.profile = new Profile(Dom.elm("#root"), profile);
-		this.Work = new Work(this.profile.subRoot);
-		this.Project = Project;
-		this.Technique = Technique;
-		this.Study = Study;
+		this._profile = new Profile(Dom.elm("#root"), profile);
+		this._work = new Work(this._profile.subRoot, work);
+		this._project = new Project(this._work.subRoot, project);
+		this._technique = Technique;
+		this._study = Study;
 	}
 }
 

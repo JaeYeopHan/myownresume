@@ -23,18 +23,24 @@
     ],
     "project": [
         {
-            "title": "navigation component",
+			"title": "navigation component",
+			"isPersonal": true,
             "github_link": "https://github.com/JaeYeopHan/simple-navigation-component",
             "period": "17.03 ~ 17.05",
-            "tech": "VanillaJS, handlebars, webpack",
-            "description": "Component project to navigation which published to npm",
-            "screenshot": ""
+            "tech": [
+				"VanillaJS", "handlebars", "webpack"
+			],
+            "description": "Component project to navigation which published to npm"
         }
     ],
     "technique": [
         {
-            "language": ["JavaScript", "Java"],
-            "framework": ["React", "Angular"]
+            "language": [
+				"JavaScript", "Java"
+			],
+            "framework": [
+				"React", "Angular"
+			]
         }
     ],
     "education": [
