@@ -31,6 +31,16 @@
         }
     ],
     "projects": [
+		{
+			"title": "Customize Your Travel",
+			"isPersonal": true,
+            "github_link": "",
+            "period": "17.08 ~ 17.08 (3week)",
+            "tech": [
+				"VanillaJS", "handlebars", "webpack"
+			],
+            "description": "You can create your own travel course based on data from Naver's 'Places to Watch'"
+		},
         {
 			"title": "navigation component",
 			"isPersonal": true,
@@ -40,7 +50,17 @@
 				"VanillaJS", "handlebars", "webpack"
 			],
             "description": "Component project to navigation which published to npm"
-        }
+		},
+		{
+			"title": "Mafia project",
+			"isPersonal": false,
+            "github_link": "https://github.com/NHNNEXT/2017-01-HUDI-MAC-CHAR",
+            "period": "17.03 ~ 17.06",
+            "tech": [
+				"VanillaJS", "handlebars", "webpack", "Springboot", "StompJS"
+			],
+            "description": "This is a web game project that allows you to play offline games called mafia on the web."
+		}
     ],
     "education": [
         {
