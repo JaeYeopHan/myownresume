@@ -1,10 +1,14 @@
+import Component from "../Component";
 import EducationTemplate from "./EducationTemplate.hbs";
 import "./EducationStyle.css";
+import "./EducationStyleMobile.css";
+import "./EducationStyleDesktop.css";
 
-class Education {
-	constructor(data) {
+class Education extends Component {
+	constructor(root, data) {
+		super(root);
 		this.data = data;
-		this.template = EducationTemplate;
+		super.render(EducationTemplate({}));
 	}
 }
 
