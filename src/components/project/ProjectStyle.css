@@ -51,6 +51,7 @@
 }
 
 .project_card_description {
+  margin-top: 6px;
   font-weight: light;
   color: #3D3D3D;
 }
