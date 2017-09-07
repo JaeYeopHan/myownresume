@@ -13,6 +13,14 @@ and (min-width : 320px) {
     margin: 16px auto;
     width: calc(100% - 20px);
   }
+
+  .section_header {
+    margin-bottom: 16px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #3D3D3D;
+  }
 }
 
 /* Desktops and laptops ----------- */
@@ -20,6 +28,15 @@ and (min-width : 320px) {
   .container {
     margin: 16px auto;
     width: 560px;
+  }
+
+  .section_header {
+    margin-bottom: 24px;
+    padding-left: 16px;
+    border-left: 8px solid #3D3D3D;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #3D3D3D;
   }
 }
 
