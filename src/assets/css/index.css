@@ -10,7 +10,8 @@ body {
 and (max-width : 560px)
 and (min-width : 320px) {
   .container {
-    width: 100%;
+    margin: 16px auto;
+    width: calc(100% - 20px);
   }
 }
 
