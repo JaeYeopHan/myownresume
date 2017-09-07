@@ -3,25 +3,27 @@
 		<div class="profile_image profile_image_style"></div>
 		<div class="profile_infos">
 			<!-- isworking on_the_job OR working -->
-			<div class="profile_info profile_isworked profile_working">On the job</div>
-			<div class="profile_info profile_name">Hong Gil Dong</div>
-			<div class="profile_info profile_job"><i class="fa fa-user-circle-o" aria-hidden="true"></i>
-JavaScript Developer</div>
-			<div class="profile_info profile_email"><i class="fa fa-envelope-o" aria-hidden="true"></i>
-dev.gildong@gmail.com</div>
+			{{#if isWorked}}
+			<div class="profile_info profile_isworked profile_working">Working</div>
+			{{else}}
+			<div class="profile_info profile_isworked profile_on_the_job">On the job</div>
+			{{/if}}
+			<div class="profile_info profile_name">{{name}}</div>
+			<div class="profile_info profile_job"><i class="fa fa-user-circle-o" aria-hidden="true"></i>{{job}}</div>
+			<div class="profile_info profile_email"><i class="fa fa-envelope-o" aria-hidden="true"></i>{{email}}</div>
 		</div>
 		<div class="profile_links">
-			<a href="">
+			<a href="{{facebook}}">
 				<div class="profile_link profile_facebook_link">
 					<i class="fa fa-facebook" aria-hidden="true"></i>
 				</div>
 			</a>
-			<a href="">
+			<a href="{{linkedin}}">
 				<div class="profile_link profile_linkedlin_link">
 					<i class="fa fa-linkedin" aria-hidden="true"></i>
 				</div>
 			</a>
-			<a href="">
+			<a href="{{github}}">
 				<div class="profile_link profile_blog_link">
 					<i class="fa fa-github" aria-hidden="true"></i>
 				</div>
@@ -29,5 +31,5 @@ dev.gildong@gmail.com</div>
 		</div>
 	</div>
 	<span class="profile_bar"></span>
-	<div class="profile_one_line_intro profile_one_line_intro_style">I'm javascript developer who loves VanillaJS</div>
+	<div class="profile_one_line_intro profile_one_line_intro_style">{{one_line_intro}}</div>
 </section>

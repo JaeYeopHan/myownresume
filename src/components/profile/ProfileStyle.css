@@ -8,8 +8,13 @@
 
 .profile_info {
   color: #3D3D3D;
-  font-weight: lighter;
   margin-bottom: 4px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.profile_info .fa {
+  margin-right: 4px;
 }
 
 .profile_isworked {

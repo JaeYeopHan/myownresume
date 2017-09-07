@@ -5,10 +5,12 @@ import "./ProfileStyleMobile.css";
 import "./ProfileStyleDesktop.css";
 
 class Profile extends Component {
-	constructor(root, data) {
+	constructor(root, {info, link}) {
 		super(root);
-		this.data = data;
-		super.render(ProfileTemplate({}));
+		super.render(ProfileTemplate({
+			...info,
+			...link,
+		}));
 	}
 }
 
