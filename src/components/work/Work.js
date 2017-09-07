@@ -4,11 +4,17 @@ import "./WorkStyle.css";
 import "./WorkStyleDesktop.css";
 import "./WorkStyleMobile.css";
 
+import Dom from "../../utils/DOM";
+
 class Work extends Component {
-	constructor(root, data) {
+	constructor(root, works) {
 		super(root);
-		this.data = data;
-		super.render(WorkTemplate({}));
+		super.render(WorkTemplate({
+			works,
+		}));
+		works.forEach(({logo}) => {
+			Dom.elm("#work_logo").style.backgroundImage = `url("../../../data/image/work/${logo}.png")`;
+		});
 	}
 }
 

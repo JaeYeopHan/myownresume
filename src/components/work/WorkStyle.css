@@ -7,6 +7,12 @@
   color: #3D3D3D;
 }
 
+.work_logo {
+  background-image: url("../../../data/image/work/naver.png");
+  background-position: center;
+  background-size: cover;
+}
+
 .work_info_name_common {
   display: block;
   font-size: 20px;

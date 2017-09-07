@@ -18,14 +18,16 @@
 		{
             "name": "NAVER Coporation",
             "position": "FrontEnd Developer",
-            "period": "17.07 ~",
-            "description": "Currently, develop UI of integrated search belonging to FE platform team."
+            "period": "17.07 ~ Current",
+			"description": "Currently, develop UI of integrated search belonging to FE platform team.",
+			"logo": "naver"
         },
         {
             "name": "LINE Coporation",
             "position": "Server Developer (Intern)",
             "period": "17.01 ~ 17.02",
-            "description": "Develop redis operation chatbot based on LINE messenger"
+			"description": "Develop redis operation chatbot based on LINE messenger",
+			"logo": "line"
         }
     ],
     "projects": [
