@@ -2,27 +2,33 @@
     "profile": {
         "info": {
 			"isWorked": true,
-            "name": "Hong Gil Dong",
-            "job": "JavaScript Developer",
-            "email": "dev.gildong@gmail.com",
+            "name": "Jae Yeop Han",
+            "job": "JavaScript Developer, Jbee",
+            "email": "ljyhanll@gmail.com",
             "profile_img": "./image/avata.jpg",
-            "one_line_intro": "I'm javascript developer who loves VanillaJS"
+            "one_line_intro": "I'm javascript developer who loves VanillaJS, React"
         },
         "link": {
             "facebook": "https://www.facebook.com/devjbee",
             "linkedin": "https://www.slideshare.net/JaeYeopHan",
-            "blog": "https://jaeyeophan.github.io/"
+            "github": "https://github.com/JaeYeopHan"
         }
     },
     "work": [
+		{
+            "name": "NAVER Coporation",
+            "position": "FrontEnd Developer",
+            "period": "17.07 ~",
+            "description": "Currently, develop UI of integrated search belonging to FE platform team."
+        },
         {
-            "name": "LINE Coporattion",
-            "position": "Web Server Developer",
+            "name": "LINE Coporation",
+            "position": "Server Developer (Intern)",
             "period": "17.01 ~ 17.02",
             "description": "Develop redis operation chatbot based on LINE messenger"
         }
     ],
-    "project": [
+    "projects": [
         {
 			"title": "navigation component",
 			"isPersonal": true,
@@ -38,7 +44,7 @@
         {
             "name": "NHN NEXT",
             "period": "16.03 ~ 17.09",
-			"status": "pending",
+			"status": "completion",
 			"major": "Web UI programming"
         }
     ]
