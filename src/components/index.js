@@ -2,12 +2,12 @@ import Profile from "./profile";
 import Work from "./work";
 import Project from "./project";
 import Education from "./education";
-import ToTopBtn from "./totopbtn";
+import Footer from "./footer";
 
 export {
 	Profile,
 	Work,
 	Project,
 	Education,
-	ToTopBtn,
+	Footer,
 };

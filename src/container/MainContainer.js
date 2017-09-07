@@ -3,7 +3,7 @@ import {
 	Work,
 	Project,
 	Education,
-	ToTopBtn,
+	Footer,
 } from "../components";
 
 import Dom from "../utils/DOM";
@@ -20,7 +20,7 @@ class MainContainer {
 		this._work = new Work(this._profile.subRoot, work);
 		this._project = new Project(this._work.subRoot, projects);
 		this._education = new Education(this._project.subRoot, education);
-		this._totopbtn = new ToTopBtn(this._education.subRoot);
+		this._footer = new Footer(this._education.subRoot);
 	}
 }
 
