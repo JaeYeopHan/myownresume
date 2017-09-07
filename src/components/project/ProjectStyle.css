@@ -10,12 +10,11 @@
 }
 
 .project_card_sub_title {
-  font-weight: lighter;
   color: #fff;
 }
 
 .project_card_sub_team {
-  background-color: orange;
+  background-color: #FEA23F;
 }
 
 .project_card_sub_personal {
@@ -69,4 +68,8 @@
   border-radius: 8px;
   border: 1px solid #3D3D3D;
   color: #3D3D3D;
+}
+
+.project_links a {
+  text-decoration: none;
 }

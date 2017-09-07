@@ -1,7 +1,7 @@
 import {
 	profile,
 	work,
-	project,
+	projects,
 	technique,
 	study,
 } from "../../data/data.json";
@@ -14,7 +14,7 @@ export default class App {
 		this.main = new MainContainer({
 			profile,
 			work,
-			project,
+			projects,
 			technique,
 			study,
 		});

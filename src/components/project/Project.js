@@ -5,10 +5,11 @@ import "./ProjectStyleMobile.css";
 import "./ProjectStyleDesktop.css";
 
 class Project extends Component {
-	constructor(root, data) {
+	constructor(root, projects) {
 		super(root);
-		this.data = data;
-		super.render(ProjectTemplate({}));
+		super.render(ProjectTemplate({
+			projects,
+		}));
 	}
 }
 
