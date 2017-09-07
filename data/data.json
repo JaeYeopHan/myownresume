@@ -1,6 +1,7 @@
 {
     "profile": {
         "info": {
+			"isWorked": true,
             "name": "Hong Gil Dong",
             "job": "JavaScript Developer",
             "email": "dev.gildong@gmail.com",
