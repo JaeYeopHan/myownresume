@@ -2,14 +2,14 @@
 	<header class="section_header">Education</header>
 	<div class="education_sub_container">
 		<!-- for each project -->
+		{{#each education}}
 		<div class="education_card">
 			<div class="education_logo education_logo_style"></div>
-			<div class="education_info education_name">NHN NEXT</div>
-			<div class="education_info education_period"><i class="fa fa-calendar-o" aria-hidden="true"></i>16.03 ~ 17.09</div>
-			<div class="education_info education_major"><i class="fa fa-address-card-o" aria-hidden="true"></i>
-Web UI Programming</div>
-			<div class="education_info education_status"><i class="fa fa-star-o" aria-hidden="true"></i>
-Completion</div>
+			<div class="education_info education_name">{{name}}</div>
+			<div class="education_info education_period"><i class="fa fa-calendar-o" aria-hidden="true"></i>{{period}}</div>
+			<div class="education_info education_major"><i class="fa fa-address-card-o" aria-hidden="true"></i>{{major}}</div>
+			<div class="education_info education_status"><i class="fa fa-star-o" aria-hidden="true"></i>{{status}}</div>
 		</div>
+		{{/each}}
 	</div>
 </section>

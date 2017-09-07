@@ -3,7 +3,7 @@ import {
 	work,
 	projects,
 	technique,
-	study,
+	education,
 } from "../../data/data.json";
 import MainContainer from "../container";
 
@@ -16,7 +16,7 @@ export default class App {
 			work,
 			projects,
 			technique,
-			study,
+			education,
 		});
 	}
 }

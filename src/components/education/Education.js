@@ -5,10 +5,11 @@ import "./EducationStyleMobile.css";
 import "./EducationStyleDesktop.css";
 
 class Education extends Component {
-	constructor(root, data) {
+	constructor(root, education) {
 		super(root);
-		this.data = data;
-		super.render(EducationTemplate({}));
+		super.render(EducationTemplate({
+			education,
+		}));
 	}
 }
 
