@@ -19,6 +19,14 @@ and (min-width : 320px) {
     margin-bottom: 16px;
   }
 
+  .profile_working_status {
+    text-align: center;
+  }
+
+  .profile_isworked {
+    font-size: 14px;
+  }
+
   .profile_infos {
     width: 100%;
   }

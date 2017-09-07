@@ -3,11 +3,13 @@
 		<div class="profile_image profile_image_style"></div>
 		<div class="profile_infos">
 			<!-- isworking on_the_job OR working -->
-			{{#if isWorked}}
-			<div class="profile_info profile_isworked profile_working">Working</div>
-			{{else}}
-			<div class="profile_info profile_isworked profile_on_the_job">On the job</div>
-			{{/if}}
+			<div class="profile_working_status">
+				{{#if isWorked}}
+				<div class="profile_info profile_isworked profile_working">Working</div>
+				{{else}}
+				<div class="profile_info profile_isworked profile_on_the_job">On the job</div>
+				{{/if}}
+			</div>
 			<div class="profile_info profile_name">{{name}}</div>
 			<div class="profile_info profile_job"><i class="fa fa-user-circle-o" aria-hidden="true"></i>{{job}}</div>
 			<div class="profile_info profile_email"><i class="fa fa-envelope-o" aria-hidden="true"></i>{{email}}</div>
