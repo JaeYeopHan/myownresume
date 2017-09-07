@@ -12,8 +12,8 @@ class Work extends Component {
 		super.render(WorkTemplate({
 			works,
 		}));
-		works.forEach(({logo}) => {
-			Dom.elm("#work_logo").style.backgroundImage = `url("../../../data/image/work/${logo}.png")`;
+		works.forEach(({logo}, idx) => {
+			Dom.elm(`#work_logo_${idx}`).style.backgroundImage = `url("/images/work/${logo}.png")`;
 		});
 	}
 }
