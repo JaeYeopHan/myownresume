@@ -13,7 +13,6 @@ class MainContainer {
 		profile,
 		work,
 		projects,
-		technique,
 		education,
 	}) {
 		this._profile = new Profile(Dom.elm("#root"), profile);

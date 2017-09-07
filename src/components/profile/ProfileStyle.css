@@ -1,7 +1,7 @@
 .profile_image_style {
   border-radius: 50%;
   border: 6px solid  #E9EBEE;
-  background-image: url("../../../data/image/profile/avata.png");
+  background-image: url("/images/profile/avata.png");
   background-position: center;
   background-size: cover;
 }

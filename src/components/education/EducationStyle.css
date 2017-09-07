@@ -3,7 +3,7 @@
 }
 
 .education_logo_style {
-  background-image: url("../../../data/image/education/nhnnext_logo.png");
+  background-image: url("/images/education/nhnnext_logo.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
