@@ -8,6 +8,7 @@ and (min-width : 320px) {
   }
 
   .education_sub_container {
+    margin-bottom: 72px;
     width: 100%;
     height: 100%;
   }
