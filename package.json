@@ -1,6 +1,6 @@
 {
   "name": "resume_prj",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "This project generate customize resume based on entered JSON data",
   "main": "index.js",
   "scripts": {
