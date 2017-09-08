@@ -34,7 +34,7 @@
 		{
 			"title": "Customize Your Travel",
 			"isPersonal": true,
-            "github_link": "",
+            "github_link": "https://github.com/JaeYeopHan/customize_your_travel_prj",
             "period": "17.08 ~ 17.08 (3week)",
             "tech": [
 				"VanillaJS", "handlebars", "webpack"
