@@ -8,21 +8,26 @@ import Dom from "../../utils/DOM";
 
 class Default extends Component {
 	constructor(root, {
-		profile,
-		work,
-		projects,
-		education,
+		profile = {},
+		work = {},
+		projects = {},
+		education = {},
 	}) {
 		super(root);
-		const {info, link} = profile;
-
 		super.render(DefaultTemplate({
-			...info,
-			...link,
+			...profile.info,
+			...profile.link,
 			work,
 			projects,
 			education,
 		}));
+
+		Default._render({
+			work,
+		});
+	}
+
+	static _render({work}) {
 		work.forEach(({logo}, idx) => {
 			Dom.elm(`#work_logo_${idx}`).style.backgroundImage = `url("/images/work/${logo}.png")`;
 		});
