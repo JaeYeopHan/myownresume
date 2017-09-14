@@ -7,7 +7,8 @@
     "test": "mocha --require babel-register $(find ./ -name '*./test/**/*.spec.js') --recursive",
     "start": "webpack-dev-server --open",
     "dev": "webpack-dev-server --env.dev",
-    "build": "webpack"
+    "build": "webpack",
+    "deploy": "npm run build && cd dist && surge --domain friendly-belief.surge.sh && git ad . && git cm \"build\" && git pom"
   },
   "repository": {
     "type": "git",
