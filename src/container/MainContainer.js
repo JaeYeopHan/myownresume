@@ -1,10 +1,6 @@
 import {
-	Profile,
-	Work,
-	Project,
-	Education,
-	Footer,
-} from "../components";
+	DefaultTheme,
+} from "../themes";
 
 import Dom from "../utils/DOM";
 
@@ -15,11 +11,13 @@ class MainContainer {
 		projects,
 		education,
 	}) {
-		this._profile = new Profile(Dom.elm("#root"), profile);
-		this._work = new Work(this._profile.subRoot, work);
-		this._project = new Project(this._work.subRoot, projects);
-		this._education = new Education(this._project.subRoot, education);
-		this._footer = new Footer(this._education.subRoot);
+		/* eslint-disable no-new */
+		new DefaultTheme(Dom.elm("#root"), {
+			profile,
+			work,
+			projects,
+			education,
+		});
 
 		this._totopbtn = document.querySelector("#totopbtn");
 		this._init();
