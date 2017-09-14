@@ -20,6 +20,16 @@ class MainContainer {
 		this._project = new Project(this._work.subRoot, projects);
 		this._education = new Education(this._project.subRoot, education);
 		this._footer = new Footer(this._education.subRoot);
+
+		this._totopbtn = document.querySelector("#totopbtn");
+		this._init();
+	}
+
+	_init() {
+		this._totopbtn.addEventListener("click", e => {
+			e.preventDefault();
+			window.scrollTo(0, 0);
+		});
 	}
 }
 
