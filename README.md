@@ -2,14 +2,14 @@
     <img src="" alt="">
 </div>
 
-# Generate Resume
+# Generate Resume Project(temporary project name)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
 
-Generate Customize Resume Project.
+Generate Customized Resume.
 
 </br>
 
-#### [Live Demo]
+#### [Live Demo](http://friendly-belief.surge.sh/)
 
 * [SetUp](#setup)
 * [Usage](#usage)
