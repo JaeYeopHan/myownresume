@@ -56,6 +56,20 @@
 	</div>
 </section>
 
+<!-- Blog description section -->
+<section class="blog_container">
+	<header class="section_header">Blogs</header>
+	<div class="blog_sub_container">
+		{{#each blog}}
+		<div class="blog_card">
+			<header class="blog_card_title">{{title}}</header>
+			<div class="blog_card_link">{{link}}</div>
+			<div class="blog_card_description">{{description}}</div>
+		</div>
+		{{/each}}
+	</div>
+</section>
+
 <!-- project description section -->
 <section class="project_container">
 	<header class="section_header">Projects</header>

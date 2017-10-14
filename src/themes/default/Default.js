@@ -10,14 +10,17 @@ class Default extends Component {
 	constructor(root, {
 		profile = {},
 		work = {},
+		blog = {},
 		projects = {},
 		education = {},
 	}) {
 		super(root);
+		console.log(blog);
 		super.render(DefaultTemplate({
 			...profile.info,
 			...profile.link,
 			work,
+			blog,
 			projects,
 			education,
 		}));

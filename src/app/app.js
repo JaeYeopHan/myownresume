@@ -1,10 +1,4 @@
-import {
-	profile,
-	work,
-	projects,
-	technique,
-	education,
-} from "../../data/data.json";
+import data from "../../data/data.json";
 import MainContainer from "../container";
 
 import "../assets/css/index.css";
@@ -16,12 +10,6 @@ import "../assets/css/index.css";
  */
 export default class App {
 	constructor() {
-		this.main = new MainContainer("default", {
-			profile,
-			work,
-			projects,
-			technique,
-			education,
-		});
+		this.main = new MainContainer("default", data);
 	}
 }

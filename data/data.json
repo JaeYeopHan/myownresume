@@ -29,7 +29,24 @@
 			"description": "Develop redis operation chatbot based on LINE messenger",
 			"logo": "line"
         }
-    ],
+	],
+	"blog": [
+		{
+			"title": "GitHub blog",
+			"link": "jaeyeophan.github.io",
+			"description": "This blog is a github.io blog about JavaScript and the front-end field, and various tutorials are mainly posted."
+		},
+		{
+			"title": "Medium",
+			"link": "https://medium.com/@Jbee_",
+			"description": "This blog is medium blog which writes essay about development."
+		},
+		{
+			"title": "Tistory blog",
+			"link": "http://asfirstalways.tistory.com/",
+			"description": "This blog is a tistory blog that summarizes the whole development."
+		}
+	],
     "projects": [
 		{
 			"title": "Customize Your Travel",
