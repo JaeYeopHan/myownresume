@@ -117,6 +117,32 @@
   color: gray;
 }
 
+/*
+ * Blog mobile style
+ */
+ .blog_container {
+  margin: 30px auto;
+  width: calc(100% - 44px);
+}
+
+.blog_card_title {
+  margin: 6px 0px;
+  font-size: 18px;
+  color: #3D3D3D;
+  font-weight: bolder;
+}
+
+.blog_card_link {
+  margin-bottom: 8px;
+  color: #0068c3;
+}
+
+.blog_card_description {
+  margin-bottom: 16px;
+  font-weight: lighter;
+  font-size: 14px;
+}
+
 
 /*
  * projects common style
