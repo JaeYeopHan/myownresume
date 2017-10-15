@@ -83,7 +83,7 @@
 /*
  * work common style
  */
- .work_logo {
+.work_logo {
   background-position: center;
   background-size: cover;
 }
@@ -262,6 +262,55 @@
   margin-right: 8px;
   margin-left: 2px;
 }
+
+/*
+ * activity section common style
+ */
+.activity_container {
+  margin: 30px auto 60px auto;
+  width: calc(100% - 44px);
+}
+
+.activity_card {
+  margin-bottom: 16px;
+  height: 120px;
+}
+
+.activity_logo {
+  background-position: center;
+  background-size: cover;
+}
+
+.activity_logo_style {
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin: 6px 24px 6px 0px;
+  border-radius: 24px;
+}
+
+.activity_card_style {
+  margin-bottom: 6px;
+  color: #3D3D3D;
+}
+
+.activity_card_title {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.activity_card_period {
+  font-size: 14px;
+}
+
+.activity_card_period .fa {
+  margin-right: 4px;
+}
+
+.activity_card_description {
+  font-weight: lighter;
+}
+
 
 /*
  * footer common style

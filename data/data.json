@@ -87,5 +87,19 @@
 			"status": "completion",
 			"major": "Web UI programming"
 		}
-    ]
+	],
+	"activity": [
+		{
+			"title": "React Seoul 2017 Organizer",
+			"period": "17.09.26 ~ 17.11.04",
+			"description": "I participated as an organizer to plan and prepare seminar for only React called React Seoul.",
+			"logo": "react_seoul"
+		},
+		{
+			"title": "Depromeet",
+			"period": "17.09 ~ current",
+			"description": "Designers and developers came together to work together in a seminar club.",
+			"logo": "depromeet"
+		}
+	]
 }

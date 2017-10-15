@@ -28,13 +28,17 @@ class Default extends Component {
 
 		Default._render({
 			work,
+			activity,
 		});
 	}
 
 	// TODO Add description and refactoring
-	static _render({work}) {
+	static _render({work, activity}) {
 		work.forEach(({logo}, idx) => {
 			Dom.elm(`#work_logo_${idx}`).style.backgroundImage = `url("/images/work/${logo}.png")`;
+		});
+		activity.forEach(({logo}, idx) => {
+			Dom.elm(`#activity_logo_${idx}`).style.backgroundImage = `url("/images/activity/${logo}.png")`;
 		});
 	}
 }
