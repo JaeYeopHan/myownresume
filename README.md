@@ -14,6 +14,7 @@ Generate Customized Resume.
 * [SetUp](#setup)
 * [Usage](#usage)
 * [API Document](#api-document)
+* [Supported Browser](#supported-browsers)
 * [Development Installation](#development-installation)
 * [Bug Report](#bug-report)
 * [Contribute](#contribute)
@@ -27,6 +28,10 @@ Generate Customized Resume.
 </br>
 
 ## API Document
+
+</br>
+
+## Supported Browsers
 
 </br>
 
