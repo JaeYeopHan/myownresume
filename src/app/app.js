@@ -10,6 +10,6 @@ import "../assets/css/index.css";
  */
 export default class App {
 	constructor() {
-		this.main = new MainContainer("default", data);
+		this.main = new MainContainer(data);
 	}
 }

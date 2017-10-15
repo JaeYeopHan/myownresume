@@ -13,9 +13,9 @@ class Default extends Component {
 		blog = {},
 		projects = {},
 		education = {},
+		activity = {},
 	}) {
 		super(root);
-		console.log(blog);
 		super.render(DefaultTemplate({
 			...profile.info,
 			...profile.link,
@@ -23,6 +23,7 @@ class Default extends Component {
 			blog,
 			projects,
 			education,
+			activity,
 		}));
 
 		Default._render({
@@ -30,6 +31,7 @@ class Default extends Component {
 		});
 	}
 
+	// TODO Add description and refactoring
 	static _render({work}) {
 		work.forEach(({logo}, idx) => {
 			Dom.elm(`#work_logo_${idx}`).style.backgroundImage = `url("/images/work/${logo}.png")`;

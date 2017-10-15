@@ -5,10 +5,10 @@ import {
 import Dom from "../utils/DOM";
 
 class MainContainer {
-	constructor(userSelectTheme, data) {
+	constructor(data) {
 		this._buildTheme();
-		this._generateResume(userSelectTheme, data);
-		this._initVar();
+		this._generateResume(data.theme, data);
+		this._initVars();
 		this._attachEvent();
 	}
 
@@ -24,7 +24,7 @@ class MainContainer {
 		new this._themes[theme](Dom.elm("#root"), data);
 	}
 
-	_initVar() {
+	_initVars() {
 		this._totopbtn = document.querySelector("#totopbtn");
 	}
 

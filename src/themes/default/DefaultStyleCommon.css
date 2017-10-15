@@ -118,10 +118,10 @@
 }
 
 /*
- * Blog mobile style
+ * Blog common style
  */
- .blog_container {
-  margin: 30px auto;
+.blog_container {
+  margin: 30px auto 60px auto;
   width: calc(100% - 44px);
 }
 
