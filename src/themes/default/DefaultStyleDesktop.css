@@ -85,9 +85,18 @@
     font-size: 16px;
   }
 
-  /*
+/*
  * Blog desktop style
  */
+  .blog_sub_container {
+    margin: auto;
+    width: calc(100% - 32px);
+  }
+
+  .blog_card_title {
+    padding-left: 12px;
+    border-left: 4px solid #E9EBEE;
+  }
 
 /*
  * projects desktop style
@@ -152,6 +161,21 @@
   .education_logo {
     float: left;
     margin-right: 24px;
+    width: 100px;
+    height: 100px;
+  }
+
+
+/*
+ * activity section common style
+ */
+
+  .activity_card {
+    margin-bottom: 1px;
+    height: 120px;
+  }
+
+  .activity_logo_style {
     width: 100px;
     height: 100px;
   }

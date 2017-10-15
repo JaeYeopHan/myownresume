@@ -177,19 +177,16 @@ and (min-width : 320px) {
   }
 }
 
+
 /*
  * activity section common style
  */
 
  .activity_card {
-  margin-bottom: 16px;
   height: 130px;
 }
 
 .activity_logo_style {
-  float: left;
   width: 90px;
   height: 90px;
-  margin: 6px 24px 6px 0px;
-  border-radius: 12px;
 }

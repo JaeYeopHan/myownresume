@@ -273,7 +273,6 @@
 
 .activity_card {
   margin-bottom: 16px;
-  height: 120px;
 }
 
 .activity_logo {
@@ -283,8 +282,6 @@
 
 .activity_logo_style {
   float: left;
-  width: 100px;
-  height: 100px;
   margin: 6px 24px 6px 0px;
   border-radius: 24px;
 }
