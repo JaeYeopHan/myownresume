@@ -1,6 +1,7 @@
-import DefaultTheme from "./default";
+import Default from "./default";
+import Empty from "./empty";
 
-export default DefaultTheme;
 export {
-	DefaultTheme,
+	Default,
+	Empty,
 };

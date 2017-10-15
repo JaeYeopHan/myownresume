@@ -1,4 +1,5 @@
 import data from "../../data/data.json";
+import {themes} from "../../data/themes.json";
 import MainContainer from "../container";
 
 import "../assets/css/index.css";
@@ -10,6 +11,6 @@ import "../assets/css/index.css";
  */
 export default class App {
 	constructor() {
-		this.main = new MainContainer(data);
+		this.main = new MainContainer(data, themes);
 	}
 }

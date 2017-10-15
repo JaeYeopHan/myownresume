@@ -1,3 +1,3 @@
-import DefaultTheme from "./Default";
+import Default from "./Default";
 
-export default DefaultTheme;
+export default Default;
