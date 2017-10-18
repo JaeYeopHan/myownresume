@@ -4,7 +4,6 @@
 .profile_image_style {
   border-radius: 50%;
   border: 6px solid  #E9EBEE;
-  background-image: url("/images/profile/profile.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -233,7 +232,6 @@
 }
 
 .education_logo_style {
-  background-image: url("/images/education/nhnnext_logo.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;

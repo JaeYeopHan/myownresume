@@ -27,7 +27,9 @@ class Default extends Component {
 		}));
 
 		Default.renderImage({
+			profile,
 			work,
+			education,
 			activity,
 		});
 
@@ -38,12 +40,16 @@ class Default extends Component {
 	 * @static
 	 * @param {Object} destructured 
 	 */
-	static renderImage({work, activity}) {
+	static renderImage({profile, work, education, activity}) {
+		Dom.elm(`#profile_image`).style.backgroundImage = `url("/images/profile/${profile.image}")`;
 		work.forEach(({logo}, idx) => {
-			Dom.elm(`#work_logo_${idx}`).style.backgroundImage = `url("/images/work/${logo}.png")`;
+			Dom.elm(`#work_logo_${idx}`).style.backgroundImage = `url("/images/work/${logo}")`;
+		});
+		education.forEach(({logo}, idx) => {
+			Dom.elm(`#education_logo_${idx}`).style.backgroundImage = `url("/images/education/${logo}")`;
 		});
 		activity.forEach(({logo}, idx) => {
-			Dom.elm(`#activity_logo_${idx}`).style.backgroundImage = `url("/images/activity/${logo}.png")`;
+			Dom.elm(`#activity_logo_${idx}`).style.backgroundImage = `url("/images/activity/${logo}")`;
 		});
 	}
 

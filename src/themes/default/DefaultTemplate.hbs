@@ -1,7 +1,7 @@
 <!-- profile section -->
 <section class="profile_container">
 	<div class="profile_sub_container">
-		<div class="profile_image profile_image_style"></div>
+		<div class="profile_image profile_image_style" id="profile_image"></div>
 		<div class="profile_infos">
 			<!-- isworking on_the_job OR working -->
 			<div class="profile_working_status">
@@ -110,7 +110,7 @@
 	<div class="education_sub_container">
 		{{#each education}}
 		<div class="education_card">
-			<div class="education_logo education_logo_style"></div>
+			<div class="education_logo education_logo_style" id="education_logo_{{@key}}"></div>
 			<div class="education_info education_name">{{name}}</div>
 			<div class="education_info education_period"><i class="fa fa-calendar-o" aria-hidden="true"></i>{{period}}</div>
 			<div class="education_info education_major"><i class="fa fa-address-card-o" aria-hidden="true"></i>{{major}}</div>

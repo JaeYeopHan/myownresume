@@ -6,9 +6,9 @@
             "name": "Jae Yeop Han",
             "job": "JavaScript Developer, Jbee",
             "email": "ljyhanll@gmail.com",
-            "profile_img": "./image/profile.jpg",
-            "one_line_intro": "I'm javascript developer who loves VanillaJS, React"
-        },
+			"one_line_intro": "I'm javascript developer who loves VanillaJS, React"
+		},
+		"image": "profile.jpg",
         "link": {
             "facebook": "https://www.facebook.com/devjbee",
             "linkedin": "https://www.slideshare.net/JaeYeopHan",
@@ -21,14 +21,14 @@
             "position": "FrontEnd Developer",
             "period": "17.07 ~ Current",
 			"description": "Currently, develop UI of integrated search belonging to FE platform team.",
-			"logo": "naver"
+			"logo": "naver.png"
         },
         {
             "name": "LINE Coporation",
             "position": "Server Developer (Intern)",
             "period": "17.01 ~ 17.02",
 			"description": "Develop redis operation chatbot based on LINE messenger",
-			"logo": "line"
+			"logo": "line.png"
         }
 	],
 	"blog": [
@@ -85,7 +85,8 @@
             "name": "NHN NEXT",
             "period": "16.03 ~ 17.09",
 			"status": "completion",
-			"major": "Web UI programming"
+			"major": "Web UI programming",
+			"logo": "nhnnext_logo.png"
 		}
 	],
 	"activity": [
@@ -93,13 +94,13 @@
 			"title": "React Seoul 2017 Organizer",
 			"period": "17.09.26 ~ 17.11.04",
 			"description": "I participated as an organizer to plan and prepare seminar for only React called React Seoul.",
-			"logo": "react_seoul"
+			"logo": "react_seoul.png"
 		},
 		{
 			"title": "Depromeet",
 			"period": "17.09 ~ current",
 			"description": "Designers and developers came together to work together in a seminar club.",
-			"logo": "depromeet"
+			"logo": "depromeet.png"
 		}
 	]
 }
