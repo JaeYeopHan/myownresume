@@ -265,12 +265,8 @@
  * activity section common style
  */
 .activity_container {
-  margin: 30px auto 60px auto;
+  margin: 30px auto 120px auto;
   width: calc(100% - 44px);
-}
-
-.activity_card {
-  margin-bottom: 16px;
 }
 
 .activity_logo {
@@ -279,8 +275,6 @@
 }
 
 .activity_logo_style {
-  float: left;
-  margin: 6px 24px 6px 0px;
   border-radius: 24px;
 }
 

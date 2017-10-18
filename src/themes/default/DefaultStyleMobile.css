@@ -175,18 +175,24 @@ and (min-width : 320px) {
   .education_name {
     font-size: 22px;
   }
-}
 
 
-/*
- * activity section common style
- */
+  /*
+  * activity section mobile style
+  */
 
-.activity_card {
-  height: 130px;
-}
+  .activity_logo_style {
+    display: block;
+    margin: 6px auto 16px auto;
+    width: 180px;
+    height: 180px;
+  }
 
-.activity_logo_style {
-  width: 90px;
-  height: 90px;
+  .activity_card {
+    margin-bottom: 32px;
+  }
+
+  .activity_card_title {
+    font-size: 20px;
+  }
 }
