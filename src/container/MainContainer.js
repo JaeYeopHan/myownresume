@@ -15,13 +15,11 @@ class MainContainer {
 	constructor(data, themesInfo) {
 		this._buildTheme(themesInfo);
 		this._generateResume(data.theme, data);
-		this._initVars();
-		this._attachEvent();
 	}
 
 	/**
 	 * @private
-	 * @param themesInfo
+	 * @param {String[]} themesInfo
 	 * @description build themes
 	 */
 	_buildTheme(themesInfo) {
@@ -40,25 +38,6 @@ class MainContainer {
 	_generateResume(theme, data) {
 		/* eslint-disable no-new */
 		new this._themes[theme](Dom.elm("#root"), data);
-	}
-
-	/**
-	 * @private
-	 * @description Initialize variables
-	 */
-	_initVars() {
-		this._totopbtn = document.querySelector("#totopbtn");
-	}
-
-	/**
-	 * @private
-	 * @description Attach events to variables
-	 */
-	_attachEvent() {
-		this._totopbtn.addEventListener("click", e => {
-			e.preventDefault();
-			window.scrollTo(0, 0);
-		});
 	}
 }
 

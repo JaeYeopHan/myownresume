@@ -26,19 +26,35 @@ class Default extends Component {
 			activity,
 		}));
 
-		Default._render({
+		Default.renderImage({
 			work,
 			activity,
 		});
+
+		Default.attachEvent();
 	}
 
-	// TODO Add description and refactoring
-	static _render({work, activity}) {
+	/**
+	 * @static
+	 * @param {Object} destructured 
+	 */
+	static renderImage({work, activity}) {
 		work.forEach(({logo}, idx) => {
 			Dom.elm(`#work_logo_${idx}`).style.backgroundImage = `url("/images/work/${logo}.png")`;
 		});
 		activity.forEach(({logo}, idx) => {
 			Dom.elm(`#activity_logo_${idx}`).style.backgroundImage = `url("/images/activity/${logo}.png")`;
+		});
+	}
+
+	/**
+	 * @static
+	 * @description Attach events to variables
+	 */
+	static attachEvent() {
+		document.querySelector("#totopbtn").addEventListener("click", e => {
+			e.preventDefault();
+			window.scrollTo(0, 0);
 		});
 	}
 }
