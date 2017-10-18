@@ -25,9 +25,9 @@
         },
         {
             "name": "LINE Coporation",
-            "position": "Server Developer (Intern)",
+            "position": "Server Developer",
             "period": "17.01 ~ 17.02",
-			"description": "Develop redis operation chatbot based on LINE messenger",
+			"description": "Develop redis operation chatbot based on LINE messenger.",
 			"logo": "line.png"
         }
 	],
