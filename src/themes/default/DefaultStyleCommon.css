@@ -136,6 +136,16 @@
   color: #0068c3;
 }
 
+.blog_card_link a {
+  text-decoration: none;
+  color: #0068c3;
+}
+
+.blog_card_link a:visited {
+  text-decoration: none;
+  color: #0068c3;
+}
+
 .blog_card_description {
   margin-bottom: 16px;
   font-weight: lighter;
