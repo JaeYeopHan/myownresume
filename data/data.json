@@ -2,19 +2,15 @@
 	"theme": "Default",
     "profile": {
 		"image": "profile.jpg",
-        "info": {
-			"isWorked": true,
-            "name": "Jae Yeop Han",
-            "job": "JavaScript Developer, Jbee",
-            "email": "ljyhanll@gmail.com",
-			"one_line_intro": "I'm javascript developer who loves VanillaJS, React"
-		},
-        "link": {
-            "facebook": "https://www.facebook.com/devjbee",
-            "linkedin": "https://www.slideshare.net/JaeYeopHan",
-            "github": "https://github.com/JaeYeopHan"
-        }
-    },
+		"isWorked": true,
+		"name": "Jae Yeop Han",
+		"job": "JavaScript Developer, Jbee",
+		"email": "ljyhanll@gmail.com",
+		"one_line_intro": "I'm javascript developer who loves VanillaJS, React",
+		"facebook": "https://www.facebook.com/devjbee",
+		"linkedin": "https://www.slideshare.net/JaeYeopHan",
+		"github": "https://github.com/JaeYeopHan"
+	},
     "work": [
 		{
             "name": "NAVER Coporation",
