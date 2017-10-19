@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="" alt="">
+    <img src="" alt="" width="" height="">
 </div>
 
 # Generate Resume Project(temporary project name)
@@ -11,7 +11,6 @@ Generate Customized Resume.
 
 #### [Live Demo](http://friendly-belief.surge.sh/)
 
-* [SetUp](#setup)
 * [Usage](#usage)
 * [API Document](#api-document)
 * [Supported Browser](#supported-browsers)
@@ -19,7 +18,6 @@ Generate Customized Resume.
 * [Bug Report](#bug-report)
 * [Contribute](#contribute)
 
-## SetUp
 
 </br>
 
@@ -49,3 +47,4 @@ Generate Customized Resume.
 </br>
 
 ## LICENSE
+[MIT LICENSE](https://github.com/JaeYeopHan/resume_prj/blob/master/LICENSE)
