@@ -1,6 +1,7 @@
 {
 	"theme": "Default",
     "profile": {
+		"image": "profile.jpg",
         "info": {
 			"isWorked": true,
             "name": "Jae Yeop Han",
@@ -8,7 +9,6 @@
             "email": "ljyhanll@gmail.com",
 			"one_line_intro": "I'm javascript developer who loves VanillaJS, React"
 		},
-		"image": "profile.jpg",
         "link": {
             "facebook": "https://www.facebook.com/devjbee",
             "linkedin": "https://www.slideshare.net/JaeYeopHan",
