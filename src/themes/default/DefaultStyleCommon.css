@@ -63,6 +63,16 @@
   border: none;
 }
 
+.profile_update_date {
+  text-align: center;
+}
+
+.profile_last_update_style {
+  font-size: 12px;
+  color: #BABABA;
+  font-style: italic;
+}
+
 .profile_bar {
   display: block;
   width: 80px;
@@ -95,7 +105,7 @@
 }
 
 .work_info_period_common {
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .work_info_period_common .fa {
@@ -111,9 +121,9 @@
 }
 
 .work_info_description_common {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: lighter;
-  color: gray;
+  color: #3D3D3D;
 }
 
 /*
