@@ -2,7 +2,9 @@ import data from "../../data/data.json";
 import {themes} from "../../data/themes.json";
 import MainContainer from "../container";
 
+import "../assets/css/normalize.css";
 import "../assets/css/index.css";
+import "../assets/css/btnPdf.css";
 
 /**
  * @class
