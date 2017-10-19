@@ -1,13 +1,15 @@
-import Dom from "../utils/DOM";
+import {DOM as Dom, ArrayUtils} from "../utils";
 /**
  * Parent class for component
  */
 class Component {
 	/**
 	 * @param {HTMLElement} root The root element for which the component will be rendered.
+	 * @param {Array} sections The data to rendering resume.
 	 */
-	constructor(root) {
+	constructor(root, sections) {
 		this._root = root;
+		this._sections = sections;
 	}
 
 	/**
@@ -18,8 +20,32 @@ class Component {
 	render(template, selector = undefined) {
 		this.subRoot = Dom.render(
 			this._root,
-			template,
+			template({...this._buildRenderingData()}),
 			selector,
+		);
+
+		this._renderImage();
+	}
+
+	/**
+	 * @param {Object[]} sections 
+	 */
+	_renderImage() {
+		return ArrayUtils.applyTo(this._buildSectionInfo(),
+			{
+				condition: ({value}) => Array.isArray(value),
+				callback: ({key, value}) => {
+					value.forEach(({logo}, idx) => {
+						Dom.elm(`#${key}_logo_${idx}`).style.backgroundImage = `url("/images/${key}/${logo}")`;
+					});
+				},
+			},
+			{
+				condition: ({value}) => !Array.isArray(value),
+				callback: ({key, value}) => {
+					Dom.elm(`#${key}_image`).style.backgroundImage = `url("/images/${key}/${value.image}")`;
+				},
+			},
 		);
 	}
 
@@ -32,6 +58,32 @@ class Component {
 			return this.subRoot;
 		}
 		return undefined;
+	}
+
+
+	/**
+	 * @private
+	 */
+	_buildRenderingData() {
+		const renderingData = {};
+
+		this._sections.forEach(section => {
+			renderingData[Object.keys(section)[0]] = Object.values(section)[0];
+		});
+
+		return renderingData;
+	}
+
+	/**
+	 * @private
+	 */
+	_buildSectionInfo() {
+		return this._sections
+			.filter(({isNeedImage}) => isNeedImage)
+			.map(data => ({
+				key: Object.keys(data)[0],
+				value: Object.values(data)[0],
+			}));
 	}
 }
 

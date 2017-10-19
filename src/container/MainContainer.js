@@ -13,6 +13,7 @@ class MainContainer {
 	 * @param {String[]} themesInfo
 	 */
 	constructor(data, themesInfo) {
+		this._baseElementSelector = "#root";
 		this._buildTheme(themesInfo);
 		this._generateResume(data.theme, data);
 	}
@@ -37,7 +38,7 @@ class MainContainer {
 	 */
 	_generateResume(theme, data) {
 		/* eslint-disable no-new */
-		new this._themes[theme](Dom.elm("#root"), data);
+		new this._themes[theme](Dom.elm(this._baseElementSelector), data);
 	}
 }
 
