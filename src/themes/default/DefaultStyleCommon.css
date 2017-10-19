@@ -321,7 +321,7 @@
 .footer_message {
   font-weight: lighter;
   font-style: italic;
-  font-size: 24px;
+  font-size: 20px;
   color: gray;
 }
 
@@ -346,6 +346,6 @@
 and (max-width : 560px)
 and (min-width : 320px) {
   .footer_message {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
