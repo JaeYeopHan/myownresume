@@ -45,12 +45,6 @@ and (min-width : 320px) {
     font-weight: bolder;
   }
 
-  .profile_one_line_intro {
-    margin-bottom: 100px;
-    width: 100%;
-  }
-
-
 /*
  * work mobile style
  */

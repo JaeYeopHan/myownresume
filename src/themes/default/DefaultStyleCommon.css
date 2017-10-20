@@ -89,6 +89,36 @@
   font-weight: lighter;
 }
 
+.profile_one_line_intro {
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.profile_interests_container {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.profile_interest {
+  display: inline-block;
+  margin-bottom: 4px;
+  padding: 4px 8px;
+  background-color: #707070;
+  opacity: .7;
+  transition: all 0.3s;
+}
+
+.profile_interest_text {
+  font-size: 12px;
+  color: #fff;
+}
+
+.profile_interest:hover {
+  border-radius: 12px;
+  padding: 6px 12px;
+  transition: all 0.3s;
+}
+
 /*
  * work common style
  */
