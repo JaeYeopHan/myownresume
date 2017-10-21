@@ -91,7 +91,14 @@
 
   .blog_card_title {
     padding-left: 12px;
-    border-left: 4px solid #E9EBEE;
+  }
+
+  .blog_logo {
+    float: left;
+    margin: 16px;
+    margin-left: 0px;
+    width: 60px;
+    height: 60px;
   }
 
 /*

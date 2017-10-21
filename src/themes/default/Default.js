@@ -16,7 +16,7 @@ class Default extends Component {
 		super(root, [
 			{profile, isNeedImage: true},
 			{work, isNeedImage: true},
-			{blog, isNeedImage: false},
+			{blog, isNeedImage: true},
 			{projects, isNeedImage: false},
 			{education, isNeedImage: true},
 			{activity, isNeedImage: true},
