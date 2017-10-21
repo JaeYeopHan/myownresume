@@ -113,12 +113,6 @@
   color: #fff;
 }
 
-.profile_interest:hover {
-  border-radius: 12px;
-  padding: 6px 12px;
-  transition: all 0.3s;
-}
-
 /*
  * work common style
  */
