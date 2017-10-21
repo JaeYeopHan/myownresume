@@ -33,17 +33,20 @@
 		{
 			"title": "GitHub blog",
 			"link": "https://jaeyeophan.github.io",
-			"description": "This blog is a github.io blog about JavaScript and the front-end field, and various tutorials are mainly posted."
+			"description": "This blog is a github.io blog about JavaScript and the front-end field, and various tutorials are mainly posted.",
+			"logo": "hexo_logo.png"
 		},
 		{
 			"title": "Medium",
 			"link": "https://medium.com/@Jbee_",
-			"description": "This blog is medium blog which writes essay about development."
+			"description": "This blog is medium blog which writes essay about development.",
+			"logo": "medium_logo.png"
 		},
 		{
 			"title": "Tistory blog",
 			"link": "http://asfirstalways.tistory.com/",
-			"description": "This blog is a tistory blog that summarizes the whole development."
+			"description": "This blog is a tistory blog that summarizes the whole development.",
+			"logo": "tistory_logo.png"
 		}
 	],
     "projects": [
