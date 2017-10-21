@@ -81,15 +81,6 @@
             "description": "This is a web game project that allows you to play offline games called mafia on the web."
 		}
     ],
-    "education": [
-        {
-            "name": "NHN NEXT",
-            "period": "16.03 ~ 17.09",
-			"status": "completion",
-			"major": "Web UI programming",
-			"logo": "nhnnext_logo.png"
-		}
-	],
 	"activity": [
 		{
 			"title": "React Seoul 2017 Organizer",
@@ -102,6 +93,21 @@
 			"period": "17.09 ~ current",
 			"description": "Designers and developers came together to work together in a seminar club.",
 			"logo": "depromeet.png"
+		},
+		{
+			"title": "JPub Publisher Beta Reader",
+			"period": "17.10 ~ 17.02",
+			"description": "I have previewed and confirmed the books to be published.",
+			"logo": "jpub_logo.jpeg"
+		}
+	],
+	"education": [
+        {
+            "name": "NHN NEXT",
+            "period": "16.03 ~ 17.09",
+			"status": "completion",
+			"major": "Web UI programming",
+			"logo": "nhnnext_logo.png"
 		}
 	]
 }

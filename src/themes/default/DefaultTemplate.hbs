@@ -113,6 +113,21 @@
 	</div>
 </section>
 
+<!-- activity description section -->
+<section class="activity_container">
+	<header class="section_header">Activity</header>
+	<div class="activity_sub_container">
+		{{#each activity}}
+		<div class="activity_card">
+			<div class="activity_logo activity_logo_style" id="activity_logo_{{@key}}"></div>
+			<div class="activity_card_style activity_card_title">{{title}}</div>
+			<div class="activity_card_style activity_card_period"><i class="fa fa-calendar-o" aria-hidden="true"></i>{{period}}</div>
+			<div class="activity_card_style activity_card_description">{{description}}</div>
+		</div>
+		{{/each}}
+	</div>
+</section>
+
 <!-- education description section -->
 <section class="education_container">
 	<header class="section_header">Education</header>
@@ -124,21 +139,6 @@
 			<div class="education_info education_period"><i class="fa fa-calendar-o" aria-hidden="true"></i>{{period}}</div>
 			<div class="education_info education_major"><i class="fa fa-address-card-o" aria-hidden="true"></i>{{major}}</div>
 			<div class="education_info education_status"><i class="fa fa-star-o" aria-hidden="true"></i>{{status}}</div>
-		</div>
-		{{/each}}
-	</div>
-</section>
-
-<!--  -->
-<section class="activity_container">
-	<header class="section_header">Activity</header>
-	<div class="activity_sub_container">
-		{{#each activity}}
-		<div class="activity_card">
-			<div class="activity_logo activity_logo_style" id="activity_logo_{{@key}}"></div>
-			<div class="activity_card_style activity_card_title">{{title}}</div>
-			<div class="activity_card_style activity_card_period"><i class="fa fa-calendar-o" aria-hidden="true"></i>{{period}}</div>
-			<div class="activity_card_style activity_card_description">{{description}}</div>
 		</div>
 		{{/each}}
 	</div>
