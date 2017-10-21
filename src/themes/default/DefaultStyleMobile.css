@@ -181,8 +181,8 @@ and (min-width : 320px) {
   .activity_logo_style {
     display: block;
     margin: 6px auto 16px auto;
-    width: 180px;
-    height: 180px;
+    width: 130px;
+    height: 130px;
   }
 
   .activity_card {

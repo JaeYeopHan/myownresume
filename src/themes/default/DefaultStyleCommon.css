@@ -158,14 +158,6 @@
   width: calc(100% - 44px);
 }
 
-.blog_logo {
-  float: left;
-  margin: 16px;
-  margin-left: 0px;
-  width: 60px;
-  height: 60px;
-}
-
 .blog_logo_style {
   background-position: center;
   background-size: contain;
