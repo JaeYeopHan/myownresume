@@ -1,6 +1,6 @@
 {
-  "name": "resume_prj",
-  "version": "0.0.1",
+  "name": "myownresume",
+  "version": "0.1.0",
   "description": "This project generate customize resume based on entered JSON data",
   "main": "index.js",
   "scripts": {
@@ -8,11 +8,12 @@
     "start": "webpack-dev-server --open",
     "dev": "webpack-dev-server --env.dev",
     "build": "webpack",
-    "deploy": "npm run build && cd dist && surge --domain friendly-belief.surge.sh && git ad . && git cm \"build\" && git pom"
+    "deploy": "npm run build && cd dist && surge",
+    "jbee": "npm run build && cd dist && surge --domain friendly-belief.surge.sh && git ad . && git cm \"build\" && git pom"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/JaeYeopHan/resume_prj"
+    "url": "https://github.com/JaeYeopHan/myownresume"
   },
   "keywords": [
     "resume"
@@ -20,9 +21,9 @@
   "author": "Jbee",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JaeYeopHan/resume_prj/issues"
+    "url": "https://github.com/JaeYeopHan/myownresume/issues"
   },
-  "homepage": "https://github.com/JaeYeopHan/resume_prj/blob/master/README.md",
+  "homepage": "https://github.com/JaeYeopHan/myownresume/blob/master/README.md",
   "devDependencies": {
     "babel-core": "^6.25.0",
     "babel-loader": "^7.1.1",
