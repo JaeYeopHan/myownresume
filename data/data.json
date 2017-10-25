@@ -51,6 +51,16 @@
 	],
     "projects": [
 		{
+			"title": "myownresume",
+			"isPersonal": true,
+			"github_link": "https://github.com/JaeYeopHan/myownresume",
+			"period": "17.09 ~ current",
+			"tech": [
+				"VanillaJS", "handlebars", "webpack"
+			],
+			"description": "Through this project, you can create your own resume with the json file of the data you entered. Finally, you can have your own resume by distributing it with a tool called surge."
+		},
+		{
 			"title": "Customize Your Travel",
 			"isPersonal": true,
             "github_link": "https://github.com/JaeYeopHan/customize_your_travel_prj",
@@ -83,10 +93,22 @@
     ],
 	"activity": [
 		{
+			"title": "DEVLOG Facebook page",
+			"period": "17.03 ~ current",
+			"description": "I have a Facebook page called DEVLOG that contains development resources for preliminary and junior developers, as well as tutorials related to the web front end.",
+			"logo": "devlog_logo.png"
+		},
+		{
 			"title": "React Seoul Organizer",
 			"period": "17.09.26 ~ current",
 			"description": "I participated as an organizer to plan and prepare seminar for only React called React Seoul.",
 			"logo": "react_seoul.png"
+		},
+		{
+			"title": "TypeScript Korea Admin",
+			"period": "17.11 ~ current",
+			"description": "I'm one of the leading members of the Facebook group to promote the language typescript to Korea.",
+			"logo": "typescript_korea_logo_temp.png"
 		},
 		{
 			"title": "Depromeet",
