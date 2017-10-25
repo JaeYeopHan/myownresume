@@ -16,6 +16,7 @@ In short, this is **Generate Customized Resume Project**. Creates a resume based
 #### [Live Demo](http://friendly-belief.surge.sh/)
 * [Supported themes](#supported-themes)
 * [Usage](#usage)
+* [Supported Feature by JSON](#supported-feature-by-json)
 * [Supported Browser](#supported-browsers)
 * [Development Installation](#development-installation)
 * [Bug Report](#bug-report)
@@ -26,6 +27,8 @@ In short, this is **Generate Customized Resume Project**. Creates a resume based
 ## Supported themes
 ### Default theme
 * [Demo]()
+
+</br>
 
 ## Usage
 #### First, clone this project
@@ -54,6 +57,64 @@ $ npm run deploy
 and, you enter `surge` info.
 
 #### Done!
+
+</br>
+
+## Supported Feature by JSON
+You can specify your own resume data through the json file.
+### theme
+
+### profile
+* `image`
+* `lastUpdate`
+* `isWorked`
+* `name`
+* `job`
+* `email`
+* `one_line_intro`
+* `interests`
+* `facebook`
+* `linkedin`
+* `github`
+
+### work
+[Array]
+* `name`
+* `position`
+* `period`
+* `description`
+* `logo`
+
+### blog
+[Array]
+* `title`
+* `link`
+* `description`
+* `logo`
+
+### projects
+[Array]
+* `title`
+* `isPersonal`
+* `github_link`
+* `period`
+* `tech`
+* `descriptin`
+
+### activity
+[Array]
+* `title`
+* `period`
+* `discription`
+* `logo`
+
+### education
+[Array]
+* `name`
+* `period`
+* `status`
+* `major`
+* `logo`
 
 </br>
 
