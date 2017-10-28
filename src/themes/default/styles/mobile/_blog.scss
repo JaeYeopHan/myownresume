@@ -1,0 +1,9 @@
+@media only screen
+and (max-width : 560px)
+and (min-width : 320px) {
+  .blog_logo {
+    margin: 12px auto;
+    width: 100%;
+    height: 60px;
+  }
+}

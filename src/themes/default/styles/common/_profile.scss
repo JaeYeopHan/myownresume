@@ -1,0 +1,111 @@
+.profile_image_style {
+  border-radius: 50%;
+  border: 6px solid  #E9EBEE;
+  background-position: center;
+  background-size: cover;
+}
+
+.profile_info {
+  color: #3D3D3D;
+  margin-bottom: 4px;
+  font-size: 15px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.profile_info .fa {
+  margin-right: 4px;
+}
+
+.profile_isworked {
+  display: inline-block;
+  padding: 5px 12px 3px 12px;
+  border-radius: 4px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.profile_on_the_job {
+  background-color: #2DA249;
+}
+
+.profile_working {
+  background-color: #F15F5F;
+}
+
+.profile_link {
+  width: calc(100% / 3);
+  float: left;
+  text-align: center;
+}
+
+.profile_link .fa {
+  border: 1px solid #BABABA;
+  border-radius: 50%;
+  font-size: 36px;
+  color: #BABABA;
+}
+
+.profile_link .fa-facebook {
+  padding: 8px 16px
+}
+
+.profile_link .fa-linkedin {
+  padding: 8px 12px
+}
+
+.profile_link .fa-github {
+  padding: 0px 2px;
+  font-size: 56px;
+  border: none;
+}
+
+.profile_update_date {
+  text-align: center;
+}
+
+.profile_last_update_style {
+  font-size: 12px;
+  color: #BABABA;
+  font-style: italic;
+}
+
+.profile_bar {
+  display: block;
+  width: 80px;
+  height: 4px;
+  margin: 12px auto;
+  background-color: #3D3D3D;
+  color: #3D3D3D;
+  opacity: .7;
+}
+
+.profile_one_line_intro_style {
+  text-align: center;
+  color: #3D3D3D;
+  font-weight: lighter;
+}
+
+.profile_one_line_intro {
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.profile_interests_container {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.profile_interest {
+  display: inline-block;
+  margin-bottom: 4px;
+  padding: 4px 8px;
+  background-color: #707070;
+  opacity: .7;
+  transition: all 0.3s;
+}
+
+.profile_interest_text {
+  font-size: 12px;
+  color: #fff;
+}

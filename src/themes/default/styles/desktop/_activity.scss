@@ -1,0 +1,20 @@
+@media only screen and (min-width : 561px) {
+  .activity_card {
+    margin: 0px auto 32px auto;
+    width: calc(100% - 36px);
+    height: 100%;
+    vertical-align: center;
+  }
+
+  .activity_logo_style {
+    float: left;
+    margin: 6px 24px 6px 0px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .activity_card_title {
+    padding-top: 12px;
+    font-size: 20px;
+  }
+}

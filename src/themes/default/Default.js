@@ -1,9 +1,6 @@
 import Component from "../Component";
 import DefaultTemplate from "./DefaultTemplate.hbs";
-import "./DefaultStyleCommon.css";
-import "./DefaultStyleMobile.css";
-import "./DefaultStyleDesktop.css";
-import "./styles/_all.scss";
+import "./styles/main.scss";
 
 class Default extends Component {
 	constructor(root, {
