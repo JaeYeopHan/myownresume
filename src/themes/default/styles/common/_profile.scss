@@ -1,12 +1,14 @@
+@import "../variables";
+
 .profile_image_style {
   border-radius: 50%;
-  border: 6px solid  #E9EBEE;
+  border: 6px solid  $color-gray;
   background-position: center;
   background-size: cover;
 }
 
 .profile_info {
-  color: #3D3D3D;
+  color: $content-text-color;
   margin-bottom: 4px;
   font-size: 15px;
   overflow: hidden;
@@ -22,7 +24,7 @@
   padding: 5px 12px 3px 12px;
   border-radius: 4px;
   font-weight: bold;
-  color: #fff;
+  color: $color-white;
 }
 
 .profile_on_the_job {
@@ -40,10 +42,10 @@
 }
 
 .profile_link .fa {
-  border: 1px solid #BABABA;
+  border: 1px solid $color-dark-gray;
   border-radius: 50%;
   font-size: 36px;
-  color: #BABABA;
+  color: $color-dark-gray;
 }
 
 .profile_link .fa-facebook {
@@ -66,7 +68,7 @@
 
 .profile_last_update_style {
   font-size: 12px;
-  color: #BABABA;
+  color: $color-dark-gray;
   font-style: italic;
 }
 
@@ -75,14 +77,14 @@
   width: 80px;
   height: 4px;
   margin: 12px auto;
-  background-color: #3D3D3D;
-  color: #3D3D3D;
+  background-color: $content-text-color;
+  color: $content-text-color;
   opacity: .7;
 }
 
 .profile_one_line_intro_style {
   text-align: center;
-  color: #3D3D3D;
+  color: $content-text-color;
   font-weight: lighter;
 }
 
@@ -100,12 +102,12 @@
   display: inline-block;
   margin-bottom: 4px;
   padding: 4px 8px;
-  background-color: #707070;
+  background-color: $hashtag-background-color;
   opacity: .7;
   transition: all 0.3s;
 }
 
 .profile_interest_text {
   font-size: 12px;
-  color: #fff;
+  color: $color-white;
 }

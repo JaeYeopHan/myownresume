@@ -1,3 +1,5 @@
+@import "../variables";
+
 .project_card {
   width: 100%;
   height: 100%;
@@ -6,11 +8,11 @@
 .project_card_title {
   margin-bottom: 10px;
   font-weight: bolder;
-  color: #3D3D3D;
+  color: $content-text-color;
 }
 
 .project_card_sub_title {
-  color: #fff;
+  color: $color-white;
 }
 
 .project_card_sub_team {
@@ -26,14 +28,14 @@
   margin-bottom: 6px;
   margin-right: 3px;
   padding: 3px 6px;
-  background-color: #E9EBEE;
+  background-color: $color-gray;
   font-weight: bolder;
-  color: #3D3D3D;
+  color: $content-text-color;
 }
 
 .project_card_period {
   font-weight: lighter;
-  color: #3D3D3D;
+  color: $content-text-color;
 }
 
 .project_card_techs {
@@ -47,13 +49,12 @@
   background-color: #FFF8E7;
   font-size: 15px;
   font-weight: lighter;
-  letter-spacing: 90%;
 }
 
 .project_card_description {
   margin-top: 6px;
-  font-weight: light;
-  color: #3D3D3D;
+  font-weight: lighter;
+  color: $content-text-color;
 }
 
 .project_links {
@@ -67,8 +68,8 @@
 
 .project_link {
   border-radius: 8px;
-  border: 1px solid #3D3D3D;
-  color: #3D3D3D;
+  border: 1px solid $content-text-color;
+  color: $content-text-color;
 }
 
 .project_links a {

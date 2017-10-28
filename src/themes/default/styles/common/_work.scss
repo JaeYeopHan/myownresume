@@ -1,3 +1,5 @@
+@import "../variables";
+
 .work_logo {
   background-position: center;
   background-size: cover;
@@ -7,7 +9,7 @@
   display: block;
   font-size: 18px;
   font-weight: bolder;
-  color: #3D3D3D;
+  color: $content-text-color;
 }
 
 .work_info_period_common {
@@ -23,11 +25,11 @@
 }
 
 .work_info_position_common {
-  color: #3D3D3D;
+  color: $content-text-color;
 }
 
 .work_info_description_common {
   font-size: 15px;
   font-weight: lighter;
-  color: #3D3D3D;
+  color: $content-text-color;
 }

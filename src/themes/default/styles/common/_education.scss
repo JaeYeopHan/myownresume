@@ -1,3 +1,5 @@
+@import "../variables";
+
 .education_card {
   margin-bottom: 40px;
 }
@@ -14,7 +16,7 @@
 }
 
 .education_info {
-  color: #3D3D3D;
+  color: $content-text-color;
   margin-bottom: 4px;
 }
 

@@ -1,6 +1,8 @@
+@import "../variables";
+
 .activity_container {
   margin: 30px auto 120px auto;
-  width: calc(100% - 44px);
+  width: $card-width;
 }
 
 .activity_logo {
@@ -14,7 +16,7 @@
 
 .activity_card_style {
   margin-bottom: 6px;
-  color: #3D3D3D;
+  color: $content-text-color;
 }
 
 .activity_card_title {

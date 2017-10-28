@@ -1,6 +1,8 @@
+@import "../variables";
+
 .blog_container {
   margin: 30px auto 60px auto;
-  width: calc(100% - 44px);
+  width: $card-width;
 }
 
 .blog_logo_style {
@@ -18,17 +20,17 @@
 
 .blog_card_link {
   margin-bottom: 8px;
-  color: #0068c3;
+  color: $color-link-text;
 }
 
 .blog_card_link a {
   text-decoration: none;
-  color: #0068c3;
+  color: $color-link-text;
 }
 
 .blog_card_link a:visited {
   text-decoration: none;
-  color: #0068c3;
+  color: $color-link-text;
 }
 
 .blog_card_description {
