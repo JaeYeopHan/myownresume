@@ -4,7 +4,6 @@ import MainContainer from "../container";
 
 import "../assets/style/normalize.css";
 import "../assets/style/index.css";
-import "../assets/style/btnPdf.css";
 
 /**
  * @class
