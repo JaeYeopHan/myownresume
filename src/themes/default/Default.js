@@ -3,6 +3,7 @@ import DefaultTemplate from "./DefaultTemplate.hbs";
 import "./DefaultStyleCommon.css";
 import "./DefaultStyleMobile.css";
 import "./DefaultStyleDesktop.css";
+import "./styles/_all.scss";
 
 class Default extends Component {
 	constructor(root, {
