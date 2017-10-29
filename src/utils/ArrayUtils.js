@@ -16,6 +16,30 @@ const utils = {
 			arr.filter(condition).forEach(val => callback(val));
 		});
 	},
+
+	/**
+     * @param {Array} arr
+     */
+	makeObj: (arr, val = undefined) => {
+		if (!Array.isArray(arr)) {
+			throw Error("[Error] Required array for first parameter.");
+		}
+		const target = {};
+
+		arr.forEach(value => {
+			if (typeof value === "string") {
+				if (val) {
+					target[value] = val[value];
+				} else {
+					target[value] = value;
+				}
+			} else {
+				target[Object.keys(value)[0]] = Object.values(value)[0];
+			}
+		});
+
+		return target;
+	},
 };
 
 export default utils;
