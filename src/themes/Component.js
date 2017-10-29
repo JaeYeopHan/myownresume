@@ -20,11 +20,22 @@ class Component {
 	render(template, selector = undefined) {
 		this.subRoot = Dom.render(
 			this._root,
-			template({...this._buildRenderingData()}),
+			template({...ArrayUtils.makeObj(this._sections)}),
 			selector,
 		);
 
 		this._renderImage();
+	}
+
+	/**
+	 * @Getter
+	 * @return {HTMLElement} HTMLElement to pending template
+	 */
+	subRoot() {
+		if (this.subRoot) {
+			return this.subRoot;
+		}
+		return undefined;
 	}
 
 	/**
@@ -58,31 +69,6 @@ class Component {
 				},
 			},
 		);
-	}
-
-	/**
-	 * @Getter
-	 * @return {HTMLElement} HTMLElement to pending template
-	 */
-	subRoot() {
-		if (this.subRoot) {
-			return this.subRoot;
-		}
-		return undefined;
-	}
-
-
-	/**
-	 * @private
-	 */
-	_buildRenderingData() {
-		const renderingData = {};
-
-		this._sections.forEach(section => {
-			renderingData[Object.keys(section)[0]] = Object.values(section)[0];
-		});
-
-		return renderingData;
 	}
 
 	/**

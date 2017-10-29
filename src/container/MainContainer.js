@@ -1,6 +1,6 @@
 import * as themesTemplate from "../themes";
 
-import Dom from "../utils/DOM";
+import {DOM as Dom, ArrayUtils} from "../utils";
 
 /**
  * @class
@@ -13,21 +13,9 @@ class MainContainer {
 	 * @param {String[]} themesInfo
 	 */
 	constructor(data, themesInfo) {
+		this._themesInfo = themesInfo;
 		this._baseElementSelector = "#root";
-		this._buildTheme(themesInfo);
 		this._generateResume(data.theme, data);
-	}
-
-	/**
-	 * @private
-	 * @param {String[]} themesInfo
-	 * @description build themes
-	 */
-	_buildTheme(themesInfo) {
-		this._themes = {};
-		themesInfo.forEach(theme => {
-			this._themes[theme] = themesTemplate[theme];
-		});
 	}
 
 	/**
@@ -37,8 +25,10 @@ class MainContainer {
 	 * @description Create real render component. end point!!
 	 */
 	_generateResume(theme, data) {
+		const themes = ArrayUtils.makeObj(this._themesInfo, themesTemplate);
+
 		/* eslint-disable no-new */
-		new this._themes[theme](Dom.elm(this._baseElementSelector), data);
+		new themes[theme](Dom.elm(this._baseElementSelector), data);
 	}
 }
 
