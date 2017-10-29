@@ -6,6 +6,7 @@
 [![Build Status](https://travis-ci.org/JaeYeopHan/myownresume.svg?branch=master)](https://travis-ci.org/JaeYeopHan/myownresume)
 [![status](https://img.shields.io/badge/status-alpha-blue.svg)](https://img.shields.io/badge/status-alpha-blue.svg)
 [![author](https://img.shields.io/badge/author-jbee-ff69b4.svg)](http://friendly-belief.surge.sh/)
+[![version](https://img.shields.io/badge/npm%20version-0.0.2-orange.svg)](https://github.com/JaeYeopHan/myownresume/blob/master/package.json)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
 
 ## What is this?
