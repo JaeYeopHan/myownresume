@@ -12,6 +12,7 @@ import "../assets/style/index.css";
  */
 export default class App {
 	constructor() {
-		this.main = new MainContainer(data, themes);
+		/* eslint-disable no-new */
+		new MainContainer(data, themes);
 	}
 }
