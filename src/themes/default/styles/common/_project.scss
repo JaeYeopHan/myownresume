@@ -30,11 +30,11 @@
   padding: 3px 6px;
   background-color: $color-dark-gray;
   font-weight: bolder;
+  font-size: 13px;
   color: $content-text-color;
 }
 
 .project_card_period {
-  font-weight: lighter;
   color: $content-text-color;
 }
 
@@ -47,13 +47,14 @@
   padding: 3px;
   border-radius: 1px;
   background-color: $color-gray;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: lighter;
 }
 
 .project_card_description {
   margin-top: 6px;
   font-weight: lighter;
+  font-size: 13px;
   color: $content-text-color;
 }
 
