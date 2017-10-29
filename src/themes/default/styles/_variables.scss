@@ -11,3 +11,15 @@ $color-working-state: #F15F5F;
 $color-onthejob-state: #2DA249;
 $color-team-project: #FEA23F;
 $color-personal-project: #7085D1;
+
+
+$desktop-container-width: calc(100% - 60px);
+$desktop-container-margin: 60px auto 120px auto;
+$desktop-sub-container-width: calc(100% - 20px);
+
+$mobile-container-width: calc(100% - 40px);
+$mobile-container-margin: 30px auto;
+
+$media-query-desktop: 561px;
+$media-query-max-width: 560px;
+$media-query-min-width: 320px;

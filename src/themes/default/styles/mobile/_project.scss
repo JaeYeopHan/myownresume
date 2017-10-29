@@ -1,9 +1,11 @@
+@import "../variables";
+
 @media only screen
-and (max-width : 560px)
-and (min-width : 320px) {
+and (max-width : $media-query-max-width)
+and (min-width : $media-query-min-width) {
   .project_container {
-    margin: 30px auto;
-    width: calc(100% - 40px);
+    margin: $mobile-container-margin;
+    width: $mobile-container-width;
   }
 
   .project_sub_container {

@@ -1,21 +1,22 @@
+@import "../variables";
+
 @media only screen
-and (max-width : 560px)
-and (min-width : 320px) {
+and (max-width : $media-query-max-width)
+and (min-width : $media-query-min-width) {
   .profile_container {
-    margin: 30px auto;
-    width: calc(100% - 40px);
+    margin: $mobile-container-margin;
+    width: $mobile-container-width;
   }
 
   .profile_sub_container {
     width: 100%;
-    height: 450px;
+    height: 100%;
   }
 
   .profile_image {
-    margin: auto;
     width: 200px;
     height: 200px;
-    margin-bottom: 16px;
+    margin: auto auto 16px;
   }
 
   .profile_working_status {

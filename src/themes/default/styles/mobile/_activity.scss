@@ -1,6 +1,8 @@
+@import "../variables";
+
 @media only screen
-and (max-width : 560px)
-and (min-width : 320px) {
+and (max-width : $media-query-max-width)
+and (min-width : $media-query-min-width) {
   .activity_logo_style {
     display: block;
     margin: 6px auto 16px auto;

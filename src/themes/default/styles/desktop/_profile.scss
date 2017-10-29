@@ -1,11 +1,13 @@
-@media only screen and (min-width : 561px) {
+@import "../variables";
+
+@media only screen and (min-width : $media-query-desktop) {
   .profile_container {
-    margin: 60px auto;
-    width: calc(100% - 60px);
+    margin: $desktop-container-margin;
+    width: $desktop-container-width;
   }
 
   .profile_sub_container {
-    width: 100%;
+    width: $desktop-sub-container-width;
     height: 280px;
   }
 

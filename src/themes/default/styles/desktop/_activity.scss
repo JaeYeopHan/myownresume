@@ -1,4 +1,6 @@
-@media only screen and (min-width : 561px) {
+@import "../variables";
+
+@media only screen and (min-width : $media-query-desktop) {
   .activity_card {
     margin: 0px auto 32px auto;
     width: calc(100% - 36px);

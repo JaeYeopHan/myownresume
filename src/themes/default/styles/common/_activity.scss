@@ -1,7 +1,7 @@
 @import "../variables";
 
 .activity_container {
-  margin: 30px auto 120px auto;
+  margin: $desktop-container-margin;
   width: $card-width;
 }
 

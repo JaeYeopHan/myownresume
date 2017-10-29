@@ -1,12 +1,14 @@
-@media only screen and (min-width : 561px) {
+@import "../variables";
+
+@media only screen and (min-width : $media-query-desktop) {
   .work_container {
-    margin: 60px auto;
-    width: calc(100% - 60px);
+    margin: $desktop-container-margin;
+    width: $desktop-container-width;
   }
 
   .work_sub_container {
     margin: auto;
-    width: calc(100% - 20px);
+    width: $desktop-sub-container-width;
     height: 100%;
   }
 
