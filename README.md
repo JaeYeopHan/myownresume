@@ -1,13 +1,13 @@
 <div align="center">
     <img src="/docs/images/myownresume_logo.png" alt="myownresume_logo" width="600px" height="200px">
-</div>
 
-# myownresume
 [![Build Status](https://travis-ci.org/JaeYeopHan/myownresume.svg?branch=master)](https://travis-ci.org/JaeYeopHan/myownresume)
 [![status](https://img.shields.io/badge/status-alpha-blue.svg)](https://img.shields.io/badge/status-alpha-blue.svg)
 [![author](https://img.shields.io/badge/author-jbee-ff69b4.svg)](http://friendly-belief.surge.sh/)
 [![version](https://img.shields.io/badge/npm%20version-0.0.2-orange.svg)](https://github.com/JaeYeopHan/myownresume/blob/master/package.json)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
+
+</div>
 
 ## What is this?
 In short, this is **Generate Customized Resume Project**. Creates a resume based on the input json formatted data. You just enter the json data to `data.json` on `/data/data.json`.
@@ -26,8 +26,7 @@ In short, this is **Generate Customized Resume Project**. Creates a resume based
 </br>
 
 ## Supported themes
-### Default theme
-* [Demo]()
+#### [Default theme]()
 
 </br>
 
