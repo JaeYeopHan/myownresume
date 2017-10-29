@@ -4,7 +4,7 @@ const ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 module.exports = {
 	entry: {
-		"js/bundle": "./src/index.js",
+		"js/bundle": "./src/index.ts",
 	},
 	output: {
 		filename: "[name].js",
@@ -14,12 +14,21 @@ module.exports = {
 	module: {
 		rules: [
 			{
-				test: /(\.js)$/,
-				loader: "eslint-loader",
-				include: path.resolve(process.cwd(), "src"),
-				exclude: /(node_modules)/,
+				test: /\.ts$/,
 				enforce: "pre",
+				loader: "tslint-loader",
 			},
+			{
+				test: /\.(tsx|ts)$/,
+				loader: "ts-loader",
+			},
+			// {
+			// 	test: /(\.js)$/,
+			// 	loader: "eslint-loader",
+			// 	include: path.resolve(process.cwd(), "src"),
+			// 	exclude: /(node_modules)/,
+			// 	enforce: "pre",
+			// },
 			{
 				test: /(\.js)$/,
 				exclude: /(node_modules)|(test)/,

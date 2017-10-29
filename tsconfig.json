@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"target": "es3",
+		"module": "commonjs",
+		"lib": ["es5", "dom"],
+		"removeComments": false,
+		"allowJs": true,
+        "typeRoots" : ["./typings.d.ts"]
+    },
+	"include": [
+		"src/**/*.ts"
+	],
+	"exclude": [
+		"node_modules"
+	]
+}
