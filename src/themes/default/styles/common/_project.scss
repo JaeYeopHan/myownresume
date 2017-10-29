@@ -16,11 +16,11 @@
 }
 
 .project_card_sub_team {
-  background-color: #FEA23F;
+  background-color: $color-team-project;
 }
 
 .project_card_sub_personal {
-  background-color: #7085D1;
+  background-color: $color-personal-project;
 }
 
 .project_card_label {
@@ -28,7 +28,7 @@
   margin-bottom: 6px;
   margin-right: 3px;
   padding: 3px 6px;
-  background-color: $color-gray;
+  background-color: $color-dark-gray;
   font-weight: bolder;
   color: $content-text-color;
 }
@@ -46,7 +46,7 @@
   margin-right: 2px;
   padding: 3px;
   border-radius: 1px;
-  background-color: #FFF8E7;
+  background-color: $color-gray;
   font-size: 15px;
   font-weight: lighter;
 }
@@ -60,10 +60,10 @@
 .project_links {
   margin: 12px 0px 48px 0px;
   text-align: center;
-}
 
-.project_links .fa {
-  padding-right: 4px;
+  .fa {
+    padding-right: 4px;
+  }
 }
 
 .project_link {

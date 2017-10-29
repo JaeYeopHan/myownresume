@@ -14,23 +14,23 @@
 .blog_card_title {
   margin: 6px 0px;
   font-size: 18px;
-  color: #3D3D3D;
+  color: $content-text-color;
   font-weight: bolder;
 }
 
 .blog_card_link {
   margin-bottom: 8px;
   color: $color-link-text;
-}
 
-.blog_card_link a {
-  text-decoration: none;
-  color: $color-link-text;
-}
+  a {
+    text-decoration: none;
+    color: $color-link-text;
 
-.blog_card_link a:visited {
-  text-decoration: none;
-  color: $color-link-text;
+    &:visited {
+      text-decoration: none;
+      color: $color-link-text;
+    }
+  }
 }
 
 .blog_card_description {

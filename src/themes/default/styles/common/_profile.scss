@@ -13,10 +13,10 @@
   font-size: 15px;
   overflow: hidden;
   white-space: nowrap;
-}
 
-.profile_info .fa {
-  margin-right: 4px;
+  .fa {
+    margin-right: 4px;
+  }
 }
 
 .profile_isworked {
@@ -28,38 +28,38 @@
 }
 
 .profile_on_the_job {
-  background-color: #2DA249;
+  background-color: $color-onthejob-state;
 }
 
 .profile_working {
-  background-color: #F15F5F;
+  background-color: $color-working-state;
 }
 
 .profile_link {
   width: calc(100% / 3);
   float: left;
   text-align: center;
-}
 
-.profile_link .fa {
-  border: 1px solid $color-dark-gray;
-  border-radius: 50%;
-  font-size: 36px;
-  color: $color-dark-gray;
-}
+  .fa {
+    border: 1px solid $color-dark-gray;
+    border-radius: 50%;
+    font-size: 36px;
+    color: $color-dark-gray;
+  }
 
-.profile_link .fa-facebook {
-  padding: 8px 16px
-}
+  .fa-facebook {
+    padding: 8px 16px
+  }
 
-.profile_link .fa-linkedin {
-  padding: 8px 12px
-}
+  .fa-linkedin {
+    padding: 8px 12px
+  }
 
-.profile_link .fa-github {
-  padding: 0px 2px;
-  font-size: 56px;
-  border: none;
+  .fa-github {
+    padding: 0px 2px;
+    font-size: 56px;
+    border: none;
+  }
 }
 
 .profile_update_date {
