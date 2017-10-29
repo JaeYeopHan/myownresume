@@ -1,6 +1,6 @@
-{
+export default {
 	"theme": "Default",
-    "profile": {
+	"profile": {
 		"image": "profile.jpg",
 		"lastUpdate": "17.10.19",
 		"isWorked": true,
@@ -8,128 +8,120 @@
 		"job": "FrontEnd Developer",
 		"email": "ljyhanll@gmail.com",
 		"one_line_intro": "I'm javascript developer who loves VanillaJS, React.",
-		"interests": ["TypeScript", "VanillaJS",  "React", "Clean Code", "Study", "Education"],
+		"interests": ["TypeScript", "VanillaJS", "React", "Clean Code", "Study", "Education"],
 		"facebook": "https://www.facebook.com/devjbee",
 		"linkedin": "https://www.slideshare.net/JaeYeopHan",
-		"github": "https://github.com/JaeYeopHan"
+		"github": "https://github.com/JaeYeopHan",
 	},
-    "work": [
+	"work": [
 		{
-            "name": "NAVER Coporation",
-            "position": "FrontEnd Developer",
-            "period": "17.07 ~ Current",
+			"name": "NAVER Coporation",
+			"position": "FrontEnd Developer",
+			"period": "17.07 ~ Current",
 			"description": "Currently, develop UI of integrated search belonging to FE platform team.",
-			"logo": "naver.png"
-        },
-        {
-            "name": "LINE Coporation",
-            "position": "Server Developer",
-            "period": "17.01 ~ 17.02",
+			"logo": "naver.png",
+		},
+		{
+			"name": "LINE Coporation",
+			"position": "Server Developer",
+			"period": "17.01 ~ 17.02",
 			"description": "Develop redis operation chatbot based on LINE messenger.",
-			"logo": "line.png"
-        }
+			"logo": "line.png",
+		},
 	],
 	"blog": [
 		{
 			"title": "GitHub blog",
 			"link": "https://jaeyeophan.github.io",
 			"description": "This blog is a github.io blog about JavaScript and the front-end field, and various tutorials are mainly posted.",
-			"logo": "hexo_logo.png"
+			"logo": "hexo_logo.png",
 		},
 		{
 			"title": "Medium",
 			"link": "https://medium.com/@Jbee_",
 			"description": "This blog is medium blog which writes essay about development.",
-			"logo": "medium_logo.png"
+			"logo": "medium_logo.png",
 		},
 		{
 			"title": "Tistory blog",
 			"link": "http://asfirstalways.tistory.com/",
 			"description": "This blog is a tistory blog that summarizes the whole development.",
-			"logo": "tistory_logo.png"
-		}
+			"logo": "tistory_logo.png",
+		},
 	],
-    "projects": [
+	"projects": [
 		{
 			"title": "myownresume",
 			"isPersonal": true,
 			"github_link": "https://github.com/JaeYeopHan/myownresume",
 			"period": "17.09 ~ current",
-			"tech": [
-				"VanillaJS", "handlebars", "webpack"
-			],
-			"description": "Through this project, you can create your own resume with the json file of the data you entered. Finally, you can have your own resume by distributing it with a tool called surge."
+			"tech": ["VanillaJS", "handlebars", "webpack"],
+			"description": "Through this project, you can create your own resume with the json file of the data you entered. Finally, you can have your own resume by distributing it with a tool called surge.",
 		},
 		{
 			"title": "Customize Your Travel",
 			"isPersonal": true,
-            "github_link": "https://github.com/JaeYeopHan/customize_your_travel_prj",
-            "period": "17.08 ~ 17.08 (3week)",
-            "tech": [
-				"VanillaJS", "handlebars", "webpack"
-			],
-            "description": "You can create your own travel course based on data from Naver's 'Places to Watch'"
+			"github_link": "https://github.com/JaeYeopHan/customize_your_travel_prj",
+			"period": "17.08 ~ 17.08 (3week)",
+			"tech": ["VanillaJS", "handlebars", "webpack"],
+			"description": "You can create your own travel course based on data from Naver's 'Places to Watch'",
 		},
-        {
+		{
 			"title": "navigation component",
 			"isPersonal": true,
-            "github_link": "https://github.com/JaeYeopHan/simple-navigation-component",
-            "period": "17.03 ~ 17.05",
-            "tech": [
-				"VanillaJS", "handlebars", "webpack"
-			],
-            "description": "Component project to navigation which published to npm"
+			"github_link": "https://github.com/JaeYeopHan/simple-navigation-component",
+			"period": "17.03 ~ 17.05",
+			"tech": ["VanillaJS", "handlebars", "webpack"],
+			"description": "Component project to navigation which published to npm",
 		},
 		{
 			"title": "Mafia project",
 			"isPersonal": false,
-            "github_link": "https://github.com/NHNNEXT/2017-01-HUDI-MAC-CHAR",
-            "period": "17.03 ~ 17.06",
-            "tech": [
-				"VanillaJS", "handlebars", "webpack", "Springboot", "StompJS"
-			],
-            "description": "This is a web game project that allows you to play offline games called mafia on the web."
-		}
-    ],
+			"github_link": "https://github.com/NHNNEXT/2017-01-HUDI-MAC-CHAR",
+			"period": "17.03 ~ 17.06",
+			"tech": ["VanillaJS", "handlebars", "webpack", "Springboot", "StompJS"],
+			"description": "This is a web game project that allows you to play offline games called mafia on the web.",
+		},
+	],
 	"activity": [
 		{
 			"title": "DEVLOG Facebook page",
 			"period": "17.03 ~ current",
 			"description": "I have a Facebook page called DEVLOG that contains development resources for preliminary and junior developers, as well as tutorials related to the web front end.",
-			"logo": "devlog_logo.png"
+			"logo": "devlog_logo.png",
 		},
 		{
 			"title": "React Seoul Organizer",
 			"period": "17.09.26 ~ current",
 			"description": "I participated as an organizer to plan and prepare seminar for only React called React Seoul.",
-			"logo": "react_seoul.png"
+			"logo": "react_seoul.png",
 		},
 		{
 			"title": "TypeScript Korea Admin",
 			"period": "17.11 ~ current",
 			"description": "I'm one of the leading members of the Facebook group to promote the language typescript to Korea.",
-			"logo": "typescript_korea_logo_temp.png"
+			"logo": "typescript_korea_logo_temp.png",
 		},
 		{
 			"title": "Depromeet",
 			"period": "17.09 ~ current",
 			"description": "Designers and developers came together to work together in a seminar club.",
-			"logo": "depromeet.png"
+			"logo": "depromeet.png",
 		},
 		{
 			"title": "JPub Publisher Beta Reader 6th",
 			"period": "17.10 ~ 18.02",
 			"description": "I have previewed and confirmed the books to be published.",
-			"logo": "jpub_logo.jpeg"
-		}
+			"logo": "jpub_logo.jpeg",
+		},
 	],
 	"education": [
-        {
-            "name": "NHN NEXT",
-            "period": "16.03 ~ 17.09",
+		{
+			"name": "NHN NEXT",
+			"period": "16.03 ~ 17.09",
 			"status": "completion",
 			"major": "Web UI programming",
-			"logo": "nhnnext_logo.png"
-		}
-	]
-}
+			"logo": "nhnnext_logo.png",
+		},
+	],
+};
