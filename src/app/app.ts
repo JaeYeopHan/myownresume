@@ -1,9 +1,10 @@
-import data from "../../data/data.json";
-import {themes} from "../../data/themes.json";
-import MainContainer from "../container";
+import MainContainer from "../container/index.ts";
 
 import "../assets/style/normalize.css";
 import "../assets/style/index.css";
+
+const data = require("../../data/data.json");
+const {themes} = require("../../data/themes.json");
 
 /**
  * @class
