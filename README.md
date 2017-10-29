@@ -32,32 +32,64 @@ In short, this is **Generate Customized Resume Project**. Creates a resume based
 </br>
 
 ## Usage
-#### First, clone this project
+### First, clone this project
 ```bash
 # install node and npm.
 $ git clone https://github.com/JaeYeopHan/myownresume && cd myownresume
 $ npm install
 ```
 
-#### Second, install `surge` npm
+### Second, install `surge` npm
 This tool works based on [surge](http://surge.sh/) module.
 ```bash
 $ npm install -g surge
 ```
 
-#### Third, customize `data.json`
+### Third, customize `data.json`
 You can find `data.json` file on path: `/data/data.json`.
 > Notice! Don't change `themes.json`.
 
 if you need image, you have to insert image to `/dist/images/` by sections and enter file name of image to `data.json`.
 
-#### Fourth, run npm script to deploy
+### Fourth-1, Deploy with run npm script
 ```bash
 $ npm run deploy
 ```
 and, you enter `surge` info.
 
-#### Done!
+### Fourth-2, Deploy with `Travis CI`
+You can use [`Travis CI`](https://travis-ci.org/)
+> Proceed with setup tasks in the following sequence :
+You can refer to this [link](https://surge.sh/help/integrating-with-travis-ci).
+
+#### First, you have to receive token of surge account.
+```$xslt
+$ surge token
+```
+you can receive **email** of surge account and **token**
+```$xslt
+email: example@example.com
+token: fadcebq13bjeb1jbej12b
+```
+
+#### Second, Add `Environment variables` in travis repository.
+* `TRAVIS_SURGE_LOGIN`: example@example.com
+* `TRAVIS_SURGE_TOKEN`: fadcebq13bjeb1jbej12b
+
+#### Third, Add script to `.travis.yml`
+```yml
+after_success:
+  - surge --project ./dist --domain [YOUR SURGE DOMAIN]
+```
+
+and run script
+```bash
+$ npm run update
+# npm run build && git push
+```
+
+
+### Done!
 
 </br>
 
