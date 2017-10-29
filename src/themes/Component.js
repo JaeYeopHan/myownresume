@@ -28,7 +28,7 @@ class Component {
 	}
 
 	/**
-	 * @param {Object[]} sections 
+	 * @param {Object[]} sections
 	 */
 	_renderImage() {
 		return ArrayUtils.applyTo(this._buildSectionInfo(),

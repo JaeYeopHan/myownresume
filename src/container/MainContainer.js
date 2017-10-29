@@ -9,7 +9,7 @@ import Dom from "../utils/DOM";
 class MainContainer {
 	/**
 	 * @constructor
-	 * @param {Object} data 
+	 * @param {Object} data
 	 * @param {String[]} themesInfo
 	 */
 	constructor(data, themesInfo) {
@@ -32,8 +32,8 @@ class MainContainer {
 
 	/**
 	 * @private
-	 * @param {String} theme 
-	 * @param {Object} data 
+	 * @param {String} theme
+	 * @param {Object} data
 	 * @description Create real render component. end point!!
 	 */
 	_generateResume(theme, data) {
