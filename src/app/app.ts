@@ -1,19 +1,22 @@
-import MainContainer from "../container/index.ts";
+import MainContainer from "../container/MainContainer.ts";
 
-import "../assets/style/normalize.css";
 import "../assets/style/index.css";
+import "../assets/style/normalize.css";
 
-const data = require("../../data/data.json");
-const {themes} = require("../../data/themes.json");
+import data from "../../data/data.js";
+import themesObj from "../../data/themes.js";
+
+// const data = require("../../data/data.js");
+// const {themes} = require("../../data/themes.js");
 
 /**
  * @class
- * 1. load data(default: data.json)
+ * 1. load data(default: data.js)
  * 2. selected theme
  */
 export default class App {
-	constructor() {
-		/* eslint-disable no-new */
-		new MainContainer(data, themes);
-	}
+    constructor() {
+        const {themes} = themesObj;
+        (() => new MainContainer(data, themes))();
+    }
 }

@@ -1,35 +1,32 @@
 import * as themesTemplate from "../themes";
-
-import {DOM as Dom, ArrayUtils} from "../utils";
+import {ArrayUtils, DOM as Dom} from "../utils";
 
 /**
  * @class
  * @description Render resume by selected theme.
  */
 class MainContainer {
-	/**
-	 * @constructor
-	 * @param {Object} data
-	 * @param {String[]} themesInfo
-	 */
-	constructor(data, themesInfo) {
-		this._themesInfo = themesInfo;
-		this._baseElementSelector = "#root";
-		this._generateResume(data.theme, data);
-	}
+    private themesInfo: string[];
+    private baseElementSelector: string;
 
-	/**
-	 * @private
-	 * @param {String} theme
-	 * @param {Object} data
-	 * @description Create real render component. end point!!
-	 */
-	_generateResume(theme, data) {
-		const themes = ArrayUtils.makeObj(this._themesInfo, themesTemplate);
+    constructor(data: object, themesInfo: string[]) {
+        this.themesInfo = themesInfo;
+        this.baseElementSelector = "#root";
+        this.generateResume(data);
+    }
 
-		/* eslint-disable no-new */
-		new themes[theme](Dom.elm(this._baseElementSelector), data);
-	}
+    /**
+     * @private
+     * @param {String} theme
+     * @param {Object} data
+     * @description Create real render component. end point!!
+     */
+    private generateResume(data: any): void {
+        const {theme} = data;
+        const themes = ArrayUtils.makeObj(this.themesInfo, themesTemplate);
+
+        (() => new themes[theme](Dom.elm(this.baseElementSelector), data))();
+    }
 }
 
 export default MainContainer;
