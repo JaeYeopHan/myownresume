@@ -9,8 +9,7 @@
     "dev": "webpack-dev-server --env.dev",
     "build": "webpack",
     "update": "npm run build && git ad . && git cm \"chore: Build for update\" && git push origin master",
-    "deploy": "npm run build && cd dist && surge",
-    "jbee": "npm run build && cd dist && surge --domain friendly-belief.surge.sh && git ad . && git cm \"build\" && git pom"
+    "deploy": "npm run build &&  surge --project ./dist"
   },
   "repository": {
     "type": "git",
@@ -34,9 +33,9 @@
     "chai": "^3.5.0",
     "css-loader": "^0.28.1",
     "eslint": "^4.2.0",
-    "eslint-config-naver": "^1.0.0",
+    "eslint-config-naver": "^2.0.1",
     "eslint-loader": "^1.9.0",
-    "extract-text-webpack-plugin": "^2.1.0",
+    "extract-text-webpack-plugin": "^2.1.2",
     "file-loader": "^0.11.2",
     "handlebars": "^4.0.10",
     "handlebars-loader": "^1.5.0",
@@ -47,7 +46,7 @@
     "style-loader": "^0.17.0",
     "surge": "^0.19.0",
     "url-loader": "^0.5.9",
-    "webpack": "^3.2.0",
+    "webpack": "^2.7.0",
     "webpack-dev-server": "^2.5.1",
     "webpack-merge": "^4.1.0"
   },
