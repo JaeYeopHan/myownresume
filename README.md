@@ -174,6 +174,8 @@ If you find a bug, please report it to me using the [Issues](https://github.com/
 
 ## Contribute
 
+#### [HOW TO CONTRIBUTE?](https://github.com/JaeYeopHan/myownresume/blob/master/docs/HOW_TO_CONTRIBUTE.md)
+
 </br>
 
 ## LICENSE
