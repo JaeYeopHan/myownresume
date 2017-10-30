@@ -1,0 +1,6 @@
+# HOW TO CONTRIBUTE
+
+## THEME CONTRIBUTE (by Designer)
+
+## Development CONTRIBUTE
+
