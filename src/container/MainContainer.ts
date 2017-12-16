@@ -1,5 +1,5 @@
-import * as themesTemplate from "../themes";
-import {ArrayUtils, DOM as Dom} from "../utils";
+import * as themesTemplate from "../themes/index.ts";
+import {ArrayUtils, DOM as Dom} from "../utils/index.js";
 
 /**
  * @class

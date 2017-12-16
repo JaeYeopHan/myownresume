@@ -5,7 +5,9 @@
 		"lib": ["es5", "dom"],
 		"removeComments": false,
 		"allowJs": true,
-        "typeRoots" : ["./typings.d.ts"]
+        "typeRoots" : [
+            "src/typings"
+        ]
     },
 	"include": [
 		"src/**/*.ts"

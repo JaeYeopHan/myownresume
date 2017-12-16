@@ -1,5 +1,5 @@
-import ArrayUtils from "./ArrayUtils.js";
-import DOM from "./DOM.js";
+import ArrayUtils from "./ArrayUtils";
+import DOM from "./DOM";
 
 export {
 	ArrayUtils,

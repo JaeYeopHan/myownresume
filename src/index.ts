@@ -1,3 +1,3 @@
-import App from "./app/index.ts";
+import App from "./app/App.ts";
 
 (() => new App())();
