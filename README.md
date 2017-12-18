@@ -26,7 +26,7 @@ In short, this is **Generate Customized Resume Project**. Creates a resume based
 </br>
 
 ## Supported themes
-#### [Default theme]()
+#### [Default theme]
 
 </br>
 
