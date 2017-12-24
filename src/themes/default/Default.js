@@ -18,7 +18,8 @@ class Default extends Component {
 				work, isNeedImage: true,
 			}, {
 				blog, isNeedImage: true,
-			}, {projects, isNeedImage: false,
+			}, {
+				projects, isNeedImage: false,
 			}, {
 				education, isNeedImage: true,
 			}, {
